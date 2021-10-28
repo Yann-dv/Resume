@@ -174,9 +174,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-.bold {
-  font-weight: bold;
-}
 
 .interest{
   margin-top: 2.5rem;
@@ -264,52 +261,187 @@ input[type="range"] {
 
 @media only screen and (max-width: 768px) /*Smartphones view*/ {
 
-  .socials {
-    margin-top: .5rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .socials i.fab:nth-child(1n+1) {
-    font-size: 2.5rem;
-    border-radius: 100px;
-    margin-right:0;
-  }
-  .right-side ul{
-    padding-left: 1rem;
-  }
-  .fullname {
-    font-size: 24px;
-}
-  .job {
-    font-size: 30px;
-  }
   .left-side {
-    margin-left: .5rem;
+    margin-left: 1rem;
   }
-  .left-side h3{
-    font-size: 20px;
+
+  .fullname {
+    font-size: 26px;
   }
-  .left-side h4{
-    font-size: 17px;
+
+  .jobdesc {
+    width: 70%;
   }
-  .left-side p{
+
+  .left-side p {
     font-size: 18px;
   }
-  .right-side {
-    max-height: 1000px;
-    font-size: 12px;
-    position: sticky;
-    top:0;
+
+  .jobgoal {
+    font-size: 28px;
   }
-  i {
+
+  .job {
+    font-size: 42px;
+    margin-bottom: 2rem;
+  }
+
+  .left-side h3 {
+    font-size: 28px;
+  }
+
+  .skills {
     font-size: 20px;
   }
+
+  .left-side h4 {
+    font-size: 23px;
+  }
+
+  .left-side .diploma-level {
+    font-size: 17px;
+  }
+
+  .socials i.fab:nth-child(n+1) {
+    font-size: 3rem;
+  }
+
+  .socials {
+    margin-top: 1.5rem;
+  }
+
   .avatar {
-    overflow: hidden;
-    margin-top: 2rem;
-    align-self: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    margin-top: 1.7rem;
+  }
+
+  .right-side {
+    font-size: 22px;
+  }
+
+  ::-moz-range-track {
+    height: .7rem;
+  }
+
+  input[type="range"] {
+    height: .7rem;
+  }
+
 }
+
+@media only screen and (max-width: 600px) {
+  .right-side ul {
+    padding-left: .6rem;
+  }
+  .right-side {
+    font-size: 18px;
+  }
+  input[type="range"] {
+    height: .6rem;
+  }
+  ::-moz-range-track {
+    height: .6rem;
+  }
+  .socials i.fab:nth-child(n+1) {
+    font-size: 2rem;
+  }
+  .jobgoal {
+    font-size: 24px;
+  }
+  .fullname {
+    font-size: 22px;
+  }
+  .job {
+    font-size: 34px;
+  }
+  .left-side h3 {
+    font-size: 24px;
+  }
+  .skills {
+    font-size: 18px;
+  }
+  .left-side h4 {
+    font-size: 19px;
+  }
+  .left-side p {
+    font-size: 16px;
+  }
+  .left-side .diploma-level {
+    font-size: 15px;
+  }
+  input[type="range"] {
+    width: 75%;
+  }
+
+  .right-side p {
+    margin: .3rem;
+  }
+
+  .right-side ul li i {
+    font-size: 24px;
+    margin-right: 1rem;
+  }
+
+  .theme-button {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+
+  .personal-infos ul {
+    padding-right: .3rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .jobgoal {
+    font-size: 22px;
+  }
+  .fullname {
+    font-size: 20px;
+  }
+  .job {
+    font-size: 28px;
+  }
+  .skills {
+    font-size: 16px;
+  }
+  .left-side h3 {
+    font-size: 22px;
+  }
+  .left-side h4 {
+    font-size: 17px;
+  }
+  .left-side p {
+    font-size: 15px;
+  }
+  .left-side .diploma-level {
+    font-size: 14px;
+  }
+  .right-side {
+    font-size: 16px;
+  }
+  .right-side ul li i {
+    font-size: 22px;
+    margin-right: .5rem;
+  }
+
+  .avatar {
+    width: 40%;
+    border-radius: 100%;
+    height: 80px;
+  }
+
+  a {
+    overflow: auto;
+  }
+  .socials {
+    margin-right: .7rem;
+  }
+  .left-side {
+    /* margin-left: 1rem; */
+    margin-left: .5rem;
+    margin-right: 1rem;
+  }
+  .personal-infos > ul li {
+    font-size: 14px;
+  }
 }
