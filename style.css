@@ -9,10 +9,15 @@
 }
 
 html {
-    margin: 0;
-    padding: 0;
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+body{
+  height: 100%;
 }
 
 .fullname {
@@ -261,7 +266,7 @@ input[type="range"] {
 }
 
 
-@media only screen and (max-width: 768px) /*Smartphones view*/ {
+@media only screen and (max-width: 768px) {
 
   .left-side {
     margin-left: 1rem;
@@ -331,9 +336,15 @@ input[type="range"] {
 }
 
 @media only screen and (max-width: 600px) {
-
+  .body {
+    margin: 0;
+    overscroll-behavior: none;
+  }
   .right-side {
     position: fixed;
+    overscroll-behavior-y: contain;
+    min-height: 100%;
+    font-size: 18px;
     top: 0;
     right: 0;
     width: 42%;
@@ -344,9 +355,6 @@ input[type="range"] {
 
   .right-side ul {
     padding-left: .6rem;
-  }
-  .right-side {
-    font-size: 18px;
   }
   input[type="range"] {
     height: .6rem;
@@ -429,7 +437,15 @@ input[type="range"] {
   .left-side .diploma-level {
     font-size: 14px;
   }
+  .body {
+    margin: 0;
+    overscroll-behavior: none;
+  }
   .right-side {
+    min-height: 100%;
+    position: fixed;
+    right:0;
+    top:0;
     font-size: 16px;
   }
   .right-side ul li i {
@@ -447,6 +463,7 @@ input[type="range"] {
 
   a {
     overflow: hidden;
+    text-overflow: ellipsis;
   }
   .socials {
     margin-right: .7rem;
