@@ -165,6 +165,7 @@ button:hover{
 .avatar {
     margin-top: 2rem;
     width: 50%;
+    box-shadow: 3px 3px 0px var(--main-bg-color);
 }
 
 li {
