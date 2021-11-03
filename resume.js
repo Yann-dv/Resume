@@ -31,7 +31,7 @@ function setThemeColor(themeColor) {
         }
         else {
             html.style.cssText = `
-            --main-color: #8F5BFD;
+            --main-color: #7451EB;
             --main-bg-color: #0D1117;
             --main-text-color: #FFFFFF;
             --secondary-text-color: #0D1117;
