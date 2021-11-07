@@ -35,7 +35,7 @@ function setThemeColor(themeColor) {
             --main-bg-color: #0D1117;
             --main-text-color: #FFFFFF;
             --secondary-text-color: #0D1117;
-            --webkit-track-color: #5828be;
+            --webkit-track-color: #380b99;
             `;
         }
     }
