@@ -15,12 +15,15 @@ window.addEventListener("DOMContentLoaded", function() {
         document.body.style.cssText = "margin-top: 0;";
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
         flagLink.setAttribute('title', 'Voir la version française');
+
         linkedIn.style.cssText = "title: See my Linkedin";
         linkedIn.setAttribute('href', 'https://fr.linkedin.com/in/yann-hagege-3a5b4112a');
+
         gitHub.style.cssText = "title: See my GitHub;";
         gitHub.setAttribute('href', 'https://github.com/Yann-dv');
+
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
-        flagVersion.setAtrribute('title', 'See the French version');
+
     }
     else {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
