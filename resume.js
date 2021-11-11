@@ -3,7 +3,6 @@ const themeBtnDark = document.getElementById("dark");
 const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
-const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
 const tradBar = document.getElementById('gt-nvframe');
 
 window.addEventListener("DOMContentLoaded", function() {
