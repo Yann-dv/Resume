@@ -6,11 +6,11 @@ const showFrench = document.getElementById("french-v");
 const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
 
 window.addEventListener("DOMContentLoaded", function() {
-    if(htmlTranslated !== 'translated-ltr') {
+    if(htmlTranslated == null) {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
-    else {
+    else if(htmlTranslated !== null) {
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
