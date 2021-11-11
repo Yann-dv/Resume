@@ -9,7 +9,7 @@ window.addEventListener("load", function() {
     if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR" && enTranslate === false) {
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
-    else (htmlLang === "en" || htmlLang === "EN" || htmlLang === "en-EN" && enTranslate === true){
+    else {
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
 });
