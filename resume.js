@@ -4,13 +4,13 @@ const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
-const tradBar = document.getElementsById('gt-nvframe');
+const tradBar = document.getElementById('gt-nvframe');
 
 window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
         tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0 ";
         body.style.cssText = "margin-top: 0";
-    };
+    }
 
     if(htmlTranslated == null) {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
