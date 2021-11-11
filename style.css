@@ -130,10 +130,6 @@ body{
   background-color:#0D1117;
 }
 
-#flag-version {
-  background : padding-box no-repeat center/ cover;
-}
-
 button:hover{
   cursor: pointer;
   transform: scale(1.2);

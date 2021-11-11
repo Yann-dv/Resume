@@ -7,10 +7,10 @@ var enTranslate = false;
 
 window.addEventListener("load", function() {
     if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR") {
-        flagVersion.style.backgroundImage = "url('./images/en-flag.png')";
+        flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
     else if(htmlLang === "en" || htmlLang === "EN" || htmlLang === "en-EN"){
-        flagVersion.style.backgroundImage = "url('./images/fr-flag.png')";
+        flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
 });
 
