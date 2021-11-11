@@ -25,6 +25,7 @@ function setThemeColor(themeColor) {
             --main-color: #1895CE;
             --main-bg-color: #FFFFFF;
             --main-text-color: #00000;
+            --subtext-color : #727272;
             --secondary-text-color: #FFFFFF;
             --webkit-track-color: #1D749B
             `;
@@ -34,6 +35,7 @@ function setThemeColor(themeColor) {
             --main-color: #7451EB;
             --main-bg-color: #0D1117;
             --main-text-color: #FFFFFF;
+            --subtext-color : #e1c6f6;
             --secondary-text-color: #0D1117;
             --webkit-track-color: #380b99;
             `;
