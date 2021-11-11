@@ -8,8 +8,8 @@ const tradBar = document.getElementsById('gt-nvframe');
 
 window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
-        tradBar.style.cssText = "display: none;z-ined: -1;width: 0; ";
-        body.style.cssText = "padding-top: 0";
+        tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0 ";
+        body.style.cssText = "margin-top: 0";
     };
 
     if(htmlTranslated == null) {
