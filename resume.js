@@ -3,7 +3,7 @@ const themeBtnDark = document.getElementById("dark");
 const flagVersion = document.getElementById("flag-version");
 const showFrench = document.getElementById("french-v");
 const htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
-var enTranslate = false;
+var enTranslate;
 
 window.addEventListener("load", function() {
     if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR" && enTranslate === false) {
