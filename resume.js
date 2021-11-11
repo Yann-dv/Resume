@@ -7,6 +7,7 @@ const htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
 
 window.addEventListener("load", function() {
     if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR") {
+        flagLink.setAttribute('href', "https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
     else {
