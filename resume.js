@@ -4,8 +4,13 @@ const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
+const tradBar = document.getElementsByTagName('iframe')[0];
 
 window.addEventListener("DOMContentLoaded", function() {
+    if(tradBar) {
+        tradBar.style.display='none';
+    };
+    
     if(htmlTranslated == null) {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
