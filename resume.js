@@ -8,20 +8,20 @@ var enTranslate = false;
 window.addEventListener("load", function() {
     if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR" && enTranslate === false) {
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
+        enTranslate = true;
     }
     else {
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
+        enTranslate = false;
     }
 });
 
 flagVersion.addEventListener("click", function () {
     if(enTranslate != true || enTranslate === null) {
         window.location = ('https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui');
-        enTranslate = true;
     }
     else {
         window.location = ('https://yann-dv.github.io/Resume/');
-        enTranslate = false;
     }
 });
 
@@ -41,7 +41,7 @@ themeBtnDark.addEventListener("click", function () {
 function setThemeColor(themeColor) {
     var html = document.getElementsByTagName('html')[0];
     if(!themeColor) {
-        return theme = "dark"; //default
+        return themeColor = "dark"; //default
     }
     else if(themeColor) {
         if(themeColor === "light") {
