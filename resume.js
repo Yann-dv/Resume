@@ -6,16 +6,16 @@ const htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
 var enTranslate = false;
 
 window.addEventListener("load", function() {
-    if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR") {
+    if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR" && enTranslate === false) {
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
-    else if(htmlLang === "en" || htmlLang === "EN" || htmlLang === "en-EN"){
+    else if(htmlLang === "en" || htmlLang === "EN" || htmlLang === "en-EN" && enTranslate === true){
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
 });
 
 flagVersion.addEventListener("click", function () {
-    if(enTranslate === false || enTranslate === null) {
+    if(enTranslate != true || enTranslate === null) {
         window.location = ('https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui');
         enTranslate = true;
     }
