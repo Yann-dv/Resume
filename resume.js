@@ -3,10 +3,10 @@ const themeBtnDark = document.getElementById("dark");
 const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
-const htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
+const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
 
 window.addEventListener("load", function() {
-    if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR") {
+    if(htmlTranslated !== 'translated-ltr') {
         flagLink.setAttribute('href', "https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
