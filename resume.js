@@ -9,6 +9,7 @@ window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
         tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0 ";
         document.body.style.cssText = "margin-top: 0";
+        window.history.pushState({}, null, 'https://yann-dv.github.io/Resume/en');
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
