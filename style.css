@@ -27,7 +27,7 @@ body{
 
 .pitch {
     color: var(--main-color);
-    font-size: 38px;
+    font-size: 34px;
     margin-bottom: 4rem;
 }
 
@@ -128,6 +128,10 @@ body{
 
 #dark {
   background-color:#0D1117;
+}
+
+#flag-version {
+  background : padding-box no-repeat center/ cover;
 }
 
 button:hover{
@@ -295,7 +299,7 @@ input[type="range"] {
   }
 
   .pitch {
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 2rem;
   }
 

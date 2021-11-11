@@ -1,14 +1,38 @@
 const themeBtnLight = document.getElementById("light");
 const themeBtnDark = document.getElementById("dark");
+const flagVersion = document.getElementById("flag-version");
+const showFrench = document.getElementById("french-v");
+const htmlLang = document.getElementsByTagName('html')[0].getAttribute('lang');
+var enTranslate = false;
+
+window.addEventListener("load", function() {
+    if(htmlLang === "fr" || htmlLang === "FR" || htmlLang === "fr-FR") {
+        flagVersion.style.backgroundImage = "url('./images/en-flag.png')";
+    }
+    else if(htmlLang === "en" || htmlLang === "EN" || htmlLang === "en-EN"){
+        flagVersion.style.backgroundImage = "url('./images/fr-flag.png')";
+    }
+});
+
+flagVersion.addEventListener("click", function () {
+    if(enTranslate === false || enTranslate === null) {
+        window.location = ('https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui');
+        enTranslate = true;
+    }
+    else {
+        window.location = ('https://yann-dv.github.io/Resume/');
+        enTranslate = false;
+    }
+});
 
 var themeColor = "dark"; // Default theme color
 
-themeBtnLight.addEventListener("click", function (e) {
+themeBtnLight.addEventListener("click", function () {
     var themeColor = "light";
     setThemeColor(themeColor);
 });
 
-themeBtnDark.addEventListener("click", function (e) {
+themeBtnDark.addEventListener("click", function () {
     var themeColor = "dark";
     setThemeColor(themeColor);
 });
