@@ -7,13 +7,15 @@ const tradBar = document.getElementById('gt-nvframe');
 
 window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
-        tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0 ";
+        tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0";
         document.body.style.cssText = "margin-top: 0";
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
+        flagLink.setAttribute('title', 'Voir la version française');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
     else {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
+        flagLink.setAttribute('title', 'Show the English version');
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
 });
