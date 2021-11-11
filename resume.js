@@ -5,9 +5,9 @@ const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const htmlTranslated= document.getElementsByTagName('html')[0].getAttribute('class');
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
     if(htmlTranslated !== 'translated-ltr') {
-        flagLink.setAttribute('href', "https://yann--dv-github-io.translate.goog/Resume/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=nui");
+        flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
     else {
