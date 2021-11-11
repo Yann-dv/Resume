@@ -3,7 +3,11 @@ const themeBtnDark = document.getElementById("dark");
 const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
+const linkedIn = document.getElementById("linkedInLink");
+const gitHub = document.getElementById("gitHubLink");
 const tradBar = document.getElementById('gt-nvframe');
+
+linkedInLink
 
 window.addEventListener("DOMContentLoaded", function() {
     if(tradBar) {
@@ -11,11 +15,14 @@ window.addEventListener("DOMContentLoaded", function() {
         document.body.style.cssText = "margin-top: 0";
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
         flagLink.setAttribute('title', 'Voir la version française');
+        linkedIn.style.cssText = "title: See my Linkedin";
+        linkedIn.setAttribute('href', 'https://fr.linkedin.com/in/yann-hagege-3a5b4112a');
+        gitHub.style.cssText = "title: See my GitHub";
+        gitHub.setAttribute('href', 'https://github.com/Yann-dv');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
     else {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
-        flagLink.setAttribute('title', 'Show the English version');
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
 });
