@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", function() {
         gitHub.style.cssText = "title: See my GitHub;";
         gitHub.setAttribute('href', 'https://github.com/Yann-dv');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
-        flagVersion.style.cssText = "title: See the French version;";
+        flagVersion.setAtrribute('title', 'See the French version');
     }
     else {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
