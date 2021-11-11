@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
         flagLink.setAttribute('href', "https://translate.google.com/translate?sl=fr&tl=en&u=https://yann-dv.github.io/Resume/");
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/en-flag.png')";
     }
-    else if(htmlTranslated !== null) {
+    else {
         flagLink.setAttribute('href', 'https://yann-dv.github.io/Resume/');
         flagVersion.style.background= "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
     }
