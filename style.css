@@ -130,6 +130,10 @@ body{
   background-color:#0D1117;
 }
 
+#print_pdf {
+  background: rgb(252, 0, 0) url("./images/print_red.png") no-repeat scroll center center / cover padding-box;
+}
+
 button:hover{
   cursor: pointer;
   transform: scale(1.2);
