@@ -20,7 +20,7 @@ function getAge(date) {
 
 window.addEventListener("load", function () {
     if (!aged) {
-        age.append(getAge(new Date(1989, 03, 23)) + " ans");
+        age.append(getAge(new Date(1988, 03, 23)) + " ans");
         aged = true;
     }
 });
@@ -48,7 +48,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-var themeColor = "dark"; // Default theme color
+var themeColor = "light"; // Default theme color
 
 themeBtnLight.addEventListener("click", function () {
     var themeColor = "light";
@@ -78,7 +78,7 @@ print_pdf.addEventListener("click", function () {
 function setThemeColor(themeColor) {
     var html = document.getElementsByTagName('html')[0];
     if (!themeColor) {
-        return themeColor = "dark"; //default
+        return themeColor = "light"; //default
     }
     else if (themeColor) {
         if (themeColor === "light") {

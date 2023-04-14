@@ -1,12 +1,11 @@
 
 :root {
---main-color: #7451EB;
---main-bg-color: #0D1117;
---main-text-color: #FFFFFF;
---subtext-color : #e1c6f6;
---secondary-text-color: #0D1117;
---webkit-track-color: #380b99;
-
+  --main-color: #1895CE;
+  --main-bg-color: #FFFFFF;
+  --main-text-color: #00000;
+  --subtext-color : #727272;
+  --secondary-text-color: #FFFFFF;
+  --webkit-track-color: #1D749B;
 }
 
 html {
@@ -120,17 +119,29 @@ body{
   font-size: 1.5rem;
   margin: .3rem;
   font-weight: bold;
-  padding: .3rem;
   border-radius: 100%;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 #dark {
-  background-color:#0D1117;
+  background-color: var(--subtext-color);
 }
 
-button:hover{
+#dark::before {
+    font-family: 'FontAwesome';
+    content: "\f186";
+    font-size: 1.5rem;
+}
+
+#light::before {
+  font-family: 'FontAwesome';
+  content: "\f185";
+  font-size: 1.1rem;
+}
+
+
+#dark:hover, #light:hover, button:hover{
   cursor: pointer;
   transform: scale(1.2);
   transition: linear;
