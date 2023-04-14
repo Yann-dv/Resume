@@ -131,13 +131,14 @@ body{
 #dark::before {
     font-family: 'FontAwesome';
     content: "\f186";
-    font-size: 1.5rem;
 }
 
 #light::before {
   font-family: 'FontAwesome';
   content: "\f185";
-  font-size: 1.1rem;
+  position: relative;
+  left: -3.5px;
+  top: .5px;
 }
 
 
