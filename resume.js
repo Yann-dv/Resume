@@ -30,6 +30,9 @@ window.addEventListener("click", function (e) {
     if (targetType === "img") {
         e.target.style.animation = "rotation 1s linear"
     }
+    
+    this.setTimeout(function () {
+    e.target.style.animation = "none"}, 1100);
 });
 
 window.addEventListener("DOMContentLoaded", function () {
