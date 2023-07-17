@@ -25,6 +25,13 @@ window.addEventListener("load", function () {
     }
 });
 
+window.addEventListener("click", function (e) {
+    var targetType = e.target.tagName.toLowerCase();
+    if (targetType === "img") {
+        e.target.style.animation = "rotation 1s linear"
+    }
+});
+
 window.addEventListener("DOMContentLoaded", function () {
     print_pdf.style.background = "padding-box no-repeat center/ cover url('./images/print_red.png')";
     if (tradBar) {
