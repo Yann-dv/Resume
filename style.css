@@ -26,8 +26,9 @@ body{
 
 .pitch {
     color: var(--main-color);
-    font-size: 34px;
-    margin-bottom: 4rem;
+    font-size: 31px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .jobdesc {
@@ -156,6 +157,30 @@ body{
 
 .socials i.fab:nth-child(1n+1) {
   font-size: 4rem;
+}
+
+.skills_progressbar img {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px black;
+}
+.lang img, .interest img {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 60px;
+  height: 40px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.skills_progressbar img:hover, .lang img:hover, .interest img:hover {
+  transform: scale(1.1);
+  transition: linear;
 }
 
 .personal-infos, .skills {
@@ -499,4 +524,5 @@ input[type="range"] {
   .personal-infos > ul li {
     font-size: 14px;
   }
+
 }
