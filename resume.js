@@ -1,7 +1,6 @@
 
 
-const themeBtnLight = document.getElementById("light");
-const themeBtnDark = document.getElementById("dark");
+const toggleThemeBtn = document.getElementById("theme-toggle");
 const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
@@ -20,7 +19,7 @@ function getAge(date) {
 
 window.addEventListener("load", function () {
     if (!aged) {
-        age.append(getAge(new Date(1988, 03, 23)) + " ans");
+        age.append(getAge(new Date(1988, 3, 23)) + " ans");
         aged = true;
     }
 });
@@ -28,11 +27,11 @@ window.addEventListener("load", function () {
 window.addEventListener("click", function (e) {
     var targetType = e.target.tagName.toLowerCase();
     if (targetType === "img") {
-        e.target.style.animation = "rotation 1s linear"
+        e.target.style.animation = "rotation .7s linear"
     }
     
     this.setTimeout(function () {
-    e.target.style.animation = "none"}, 1100);
+    e.target.style.animation = "none"}, 750);
 });
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -60,14 +59,16 @@ window.addEventListener("DOMContentLoaded", function () {
 
 var themeColor = "light"; // Default theme color
 
-themeBtnLight.addEventListener("click", function () {
-    var themeColor = "light";
+toggleThemeBtn.addEventListener("click", function () {
+    if(themeColor === "light") {
+    themeColor = "dark";
     setThemeColor(themeColor);
-});
-
-themeBtnDark.addEventListener("click", function () {
-    var themeColor = "dark";
+    }
+    else
+    {
+    themeColor = "light";
     setThemeColor(themeColor);
+    }
 });
 
 print_pdf.addEventListener("click", function () {
@@ -112,6 +113,7 @@ function setThemeColor(themeColor) {
             html.style.cssText = `
             --main-color: #1895CE;
             --main-bg-color: #FFFFFF;
+            --secondary-bg-color : #000000;
             --main-text-color: #00000;
             --subtext-color : #727272;
             --secondary-text-color: #FFFFFF;
@@ -122,6 +124,7 @@ function setThemeColor(themeColor) {
             html.style.cssText = `
             --main-color: #7451EB;
             --main-bg-color: #0D1117;
+            --secondary-bg-color : #FFFFFF;
             --main-text-color: #FFFFFF;
             --subtext-color : #e1c6f6;
             --secondary-text-color: #0D1117;

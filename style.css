@@ -2,6 +2,7 @@
 :root {
   --main-color: #1895CE;
   --main-bg-color: #FFFFFF;
+  --secondary-bg-color : #000000;
   --main-text-color: #00000;
   --subtext-color : #727272;
   --secondary-text-color: #FFFFFF;
@@ -129,25 +130,12 @@ body{
   width: 2rem;
 }
 
-#dark {
-  background-color: var(--subtext-color);
-}
-
-#dark::before {
-    font-family: 'FontAwesome';
-    content: "\f186";
-}
-
-#light::before {
-  font-family: 'FontAwesome';
-  content: "\f185";
-  position: relative;
-  left: -3.5px;
-  top: .5px;
+#theme-toggle {
+  background: linear-gradient(90deg, var(--secondary-bg-color) 54%, var(--main-bg-color) 46%);
 }
 
 
-#dark:hover, #light:hover, button:hover{
+button:hover{
   cursor: pointer;
   transform: scale(1.2);
   transition: linear;
@@ -533,10 +521,13 @@ input[type="range"] {
 
 
 @keyframes rotation {
-  from {
+  0% {
     transform: rotateY(0deg);
   }
-  to {
-    transform: rotateY(359deg);
+  50% {
+    transform: rotateY(90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
   }
 }
