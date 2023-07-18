@@ -27,15 +27,14 @@ window.addEventListener("load", function () {
 window.addEventListener("click", function (e) {
     var targetType = e.target.tagName.toLowerCase();
     if (targetType === "img") {
-        e.target.style.animation = "rotation .7s linear"
+        e.target.style.animation = "rotation .8s linear"
     }
     
     this.setTimeout(function () {
-    e.target.style.animation = "none"}, 750);
+    e.target.style.animation = "none"}, 850);
 });
 
 window.addEventListener("DOMContentLoaded", function () {
-    print_pdf.style.background = "padding-box no-repeat center/ cover url('./images/print_red.png')";
     if (tradBar) {
         tradBar.style.cssText = "display: none;z-index: -1;width: 0;height: 0;";
         document.body.style.cssText = "margin-top: 0;";
