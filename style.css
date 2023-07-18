@@ -397,6 +397,7 @@ input[type="range"] {
   }
   input[type="range"] {
     height: .6rem;
+    width: 75%;
   }
   ::-moz-range-track {
     height: .6rem;
@@ -429,9 +430,6 @@ input[type="range"] {
   .left-side .diploma-level {
     font-size: 15px;
   }
-  input[type="range"] {
-    width: 75%;
-  }
 
   .right-side p {
     margin: .3rem;
@@ -459,26 +457,31 @@ input[type="range"] {
   .fullname {
     font-size: 20px;
   }
+
+  .jobdesc h2, .jobgoal { 
+    font-size: 16px;
+  }
+
   .pitch {
-    font-size: 22px;
+    font-size: 16px;
     margin-right: .5rem;
   }
   .skills {
-    padding-left: 1rem;
+    padding-left: .5rem;
     padding-right: .5rem;
-    font-size: 14px;
+    font-size: 12px;
   }
   .left-side h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .left-side h4 {
-    font-size: 17px;
+    font-size: 14px;
   }
   .left-side p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .left-side .diploma-level {
-    font-size: 14px;
+    font-size: 11px;
   }
   .body {
     margin: 0;
@@ -489,11 +492,19 @@ input[type="range"] {
     position: fixed;
     right:0;
     top:0;
-    font-size: 16px;
+    font-size: 10px;
   }
   .right-side ul li i {
-    font-size: 22px;
+    font-size: 14px;
     margin-right: .5rem;
+  }
+
+  input[type="range"] {
+    height: .2rem;
+  }
+
+  .right-side-subtitle {
+    margin-bottom: .2rem;
   }
 
   .avatar {
@@ -512,13 +523,34 @@ input[type="range"] {
   .socials {
     margin-right: .7rem;
   }
-  .left-side {
+  .left-side ul {
     /* margin-left: 1rem; */
-    margin-left: .5rem;
+    margin-left: -3rem;
     margin-right: 1rem;
   }
   .personal-infos > ul li {
-    font-size: 14px;
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .skills_progressbar img  {
+    width: 14px;
+    height: 14px;
+    margin-top: 0;
+    border-radius: 4px;
+  }
+
+  .lang img, .interest img {
+    width: 20px;
+    height: 14px;
+    margin-top: 0;
+    border-radius: 4px;
+  }
+
+  .skills_progressbar img:hover, .lang img:hover, .interest img:hover {
+    transform: scale(1);
+    transition: linear;
   }
 
 }
