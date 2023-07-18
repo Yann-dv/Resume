@@ -26,12 +26,16 @@ window.addEventListener("load", function () {
 
 window.addEventListener("click", function (e) {
     var targetType = e.target.tagName.toLowerCase();
-    if (targetType === "img") {
-        e.target.style.animation = "rotation .8s linear"
-    }
+    var avatar = document.getElementById("avatar");
     
-    this.setTimeout(function () {
-    e.target.style.animation = "none"}, 850);
+    if(e.target !== avatar) {
+        if (targetType === "img") {
+            e.target.style.animation = "rotation .8s linear"
+        }
+        
+        this.setTimeout(function () {
+        e.target.style.animation = "none"}, 850);
+    }
 });
 
 window.addEventListener("DOMContentLoaded", function () {
