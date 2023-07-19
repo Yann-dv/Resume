@@ -27,8 +27,24 @@ window.addEventListener("load", function () {
 window.addEventListener("click", function (e) {
     var targetType = e.target.tagName.toLowerCase();
     var avatar = document.getElementById("avatar");
-    
-    if(e.target !== avatar) {
+    if(e.target === avatar) {
+        if (avatar.src.includes("avatarmanga.jpg")) {
+            avatar.style.animation = "flush .5s linear"
+            this.setTimeout(function () {
+                avatar.src = "./images/avatar.jpg";
+            }, 500);
+        }
+        else {
+            avatar.style.animation = "flush .5s linear"
+            this.setTimeout(function () {
+                avatar.src = "./images/avatarmanga.jpg";
+            }, 500);
+        }
+        this.setTimeout(function () {
+            avatar.style.animation = "none"
+        }, 510);
+    }
+    else {
         if (targetType === "img") {
             e.target.style.animation = "rotation .8s linear"
         }
