@@ -1,5 +1,3 @@
-
-
 const toggleThemeBtn = document.getElementById("theme-toggle");
 const flagVersion = document.getElementById("flag-version");
 const flagLink = document.getElementsByClassName('flagLink')[0];
