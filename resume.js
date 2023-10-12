@@ -4,6 +4,7 @@ const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const linkedIn = document.getElementById("linkedInLink");
 const gitHub = document.getElementById("gitHubLink");
+const portfolio = document.getElementById("portfolioLink");
 const tradBar = document.getElementById('gt-nvframe');
 const print_pdf = document.getElementById('print_pdf');
 const age = document.getElementById('age');
@@ -65,6 +66,9 @@ window.addEventListener("DOMContentLoaded", function () {
         gitHub.style.cssText = "title: See my GitHub;";
         gitHub.setAttribute('href', 'https://github.com/Yann-dv');
 
+        portfolio.style.cssText = "title: See my portfolio;";
+        portfolio.setAttribute('href', 'https://yh-dev-portfolio.azurewebsites.net/');
+
         flagVersion.style.background = "padding-box no-repeat center/ cover url('./images/fr-flag.png')";
 
     }
@@ -89,7 +93,7 @@ toggleThemeBtn.addEventListener("click", function () {
 });
 
 print_pdf.addEventListener("click", function () {
-    var win = window.open('', '', 'top=0,width=552,height=477,toolbar=0,scrollbars=0,status =0');
+    var win = window.open('', '', 'top=0,width=552,height=477,toolbar=0,scrollbars=0,status =0, margin: 0, padding: 0');
 
     var content = "<html style='height: 96%;--main-color: #1895CE;--main-bg-color: #FFFFFF;--main-text-color: #00000;--subtext-color : #727272;--webkit-track-color: #1D749B'>";
     content += "<body onload=\"window.print(); window.close();\">";
@@ -97,7 +101,7 @@ print_pdf.addEventListener("click", function () {
     content += `
     <style> .fullname {font-size:22px} .pitch {font-size: 16px; width: 90%; margin: 0} 
     h2 {font-size: 14px} .jobdesc {width: 100%} .jobgoal {font-size: 20px} 
-    .left-side h3{font-size: 20px} .left-side h4 {font-size: 16px} .left-side p {font-size: 12px} 
+    .left-side h3{font-size: 20px} .left-side h4 {font-size: 18px} .left-side p {font-size: 14px} 
     .left-side .diploma-level {font-size: 10px} .skills_progressbar ul li, .lang ul li, .interest ul li { margin-left: -20px} 
     .personal-infos > ul li {margin-top: 2px; margin-bottom: 1px} 
     .interest > ul:nth-child(1) > li:nth-child(1) > h3:nth-child(1) {margin-bottom: .3rem} 
