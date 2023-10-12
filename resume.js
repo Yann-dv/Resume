@@ -107,7 +107,7 @@ print_pdf.addEventListener("click", function () {
     .interest > ul:nth-child(1) > li:nth-child(1) > h3:nth-child(1) {margin-bottom: .3rem} 
     .skills, formations-list, experiences-list {font-size: 12px} .rigth-side {font-size: 10px}
     [type='range'] {margin: 0; height: .7rem} .right-side-subtitle {margin-bottom: 0.5rem, margin-top: 0.2rem} h3 {font-size: 20px; margin-top: -30px} 
-    .right-side h4 {font-size: 16px; margin: .1rem} .socials i.fab:nth-child(n+1) {font-size: 3rem} 
+    .right-side h4 {font-size: 16px; margin: .1rem} .socials i.fab:nth-child(n+1), .socials i.fa-solid:nth-child(1n+1) {font-size: 3rem} 
     .right-side-header li {font-size: 16px} .right-side-header li i {font-size: 20px}
     .personal-infos > ul li i {font-size: 20px} .personal-infos > ul li {font-size: 16px; margin-left: -20px} 
     .formations-list-item, .experiences-list-item {margin-top: -15px} .skills_progressbar li, .lang li, 
