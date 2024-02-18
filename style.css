@@ -128,7 +128,6 @@ body{
 }
 
 .theme-button {
-  font-size: 1.5rem;
   margin: .3rem;
   font-weight: bold;
   border-radius: 100%;
@@ -137,7 +136,12 @@ body{
 }
 
 #theme-toggle {
-  background: linear-gradient(90deg, var(--secondary-bg-color) 52%, var(--main-bg-color) 48%);
+  color: #000000;
+  background-color: #FFFFFF; 
+}
+
+#theme-toggle i {
+  font-size: 1.2rem;
 }
 
 
@@ -170,7 +174,7 @@ button:hover{
   margin-top: 1rem;
   margin-bottom: 0;
   width: 4vw;
-  height: 7vh;
+  height: 8vh;
   border-radius: 8px;
   box-shadow: 1px 1px 1px black;
 }

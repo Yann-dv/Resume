@@ -82,13 +82,17 @@ var themeColor = "light"; // Default theme color
 
 toggleThemeBtn.addEventListener("click", function () {
     if(themeColor === "light") {
-    themeColor = "dark";
-    setThemeColor(themeColor);
+        themeColor = "dark";
+        setThemeColor(themeColor);
+        toggleThemeBtn.style.cssText = "color: #FFFFFF; background-color: #000000";
+        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
     }
     else
     {
-    themeColor = "light";
-    setThemeColor(themeColor);
+        themeColor = "light";
+        setThemeColor(themeColor);
+        toggleThemeBtn.style.cssText = "color: #000000; background-color: #FFFFFF";
+        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
     }
 });
 
