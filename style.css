@@ -144,6 +144,17 @@ body{
   font-size: 1.2rem;
 }
 
+#translate-button {
+  background-image: url('./images/fr-flag.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.en-flag {
+  background-image: url('./images/en-flag.png');
+}
+
 
 button:hover{
   cursor: pointer;
@@ -247,6 +258,7 @@ a {
 
 /*Range - slider style*/
 input[type="range"] { 
+  appearance: none;
   -webkit-appearance: none;
   position: relative;
   overflow: hidden;
