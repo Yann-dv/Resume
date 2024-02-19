@@ -487,6 +487,10 @@ input[type="range"] {
     font-size: 3rem;
   }
 
+  .socials i.fab:nth-child(n+1), .socials i.fa-solid:nth-child(n+1) {
+    font-size: 3rem;
+  }
+
   .socials {
     margin-top: 1.5rem;
   }
