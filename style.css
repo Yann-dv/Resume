@@ -84,6 +84,7 @@ body {
 }
 
 .left-side h3 {
+  margin-left: 2rem;
   font-size: 30px;
   color: var(--main-color);
 }
@@ -307,11 +308,6 @@ button:hover {
   flex-direction: column;
 }
 
-.left-side ul {
-  margin-left: -2rem;
-  margin-right: 1rem;
-}
-
 .personal-infos ul {
   padding-right: 1rem;
 }
@@ -474,6 +470,14 @@ input[type="range"] {
   .left-side .diploma-level {
     font-size: 17px;
   }
+
+  .formations-list, .experiences-list {
+    margin-left: -2rem;
+  }
+
+  .skills-list {
+    margin-left: -3rem;
+  }
   
   #theme-toggle i {
     font-size: .7rem;
@@ -586,6 +590,13 @@ input[type="range"] {
     font-size: 16px;
   }
 
+  .formations-list, .experiences-list {
+    margin-left: -2rem;
+  }
+
+  .skills-list {
+    margin-left: -3rem;
+  }
   .left-side .diploma-level {
     font-size: 15px;
   }
@@ -702,9 +713,12 @@ input[type="range"] {
     margin-right: .3rem;
   }
 
-  .left-side ul {
+  .formations-list, .experiences-list {
     margin-left: -2rem;
-    margin-right: 1rem;
+  }
+
+  .skills-list {
+    margin-left: -3rem;
   }
 
   .personal-infos>ul li {
