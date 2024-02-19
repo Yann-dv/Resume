@@ -34,8 +34,8 @@ function translatePage() {
 
 var translations = {
     'header.title': {
-        'fr': 'Ingénierie logiciels et applications',
-        'en': 'Software & Application Engineering'
+        'fr': 'Yann Hagege - Ingénierie logicielle et applications',
+        'en': 'Yann Hagege - Software & Application Engineering'
     },
     "header.subtitle": {
         "fr": "Développement de logiciels et applications web et mobiles",
@@ -66,12 +66,12 @@ var translations = {
         "en": "Design applications using popular frameworks such as Angular, React, Vue.js."
     },
     "skills.item3": {
-        "fr": "Développer des applications Back-end avec Node.js, C#/.NET, F# ou PHP.",
-        "en": "Develop Back-end applications with Node.js, C#/.NET, F# or PHP."
+        "fr": "Développer des solutions Back-end robustes en utilisant des technologies telles que C#, .NET, et MySQL.",
+        "en": "Develop robust Back-end solutions using technologies such as C#, .NET, and MySQL."
     },
     "skills.item4": {
-        "fr": "Concevoir des APIs REST communiquant avec des applications, des services et des bases de données.",
-        "en": "Design REST APIs communicating with applications, services, and databases."
+        "fr": "Concevoir et implémenter des API RESTful pour une communication transparente entre les applications et les bases de données.",
+        "en": "Design and implement RESTful APIs for seamless communication between applications and databases."
     },
     "skills.item5": {
         "fr": "Concevoir et gérer des bases de données MySQL, PostgreSQL, MongoDB, SQL Server.",
@@ -82,8 +82,8 @@ var translations = {
         "en": "Deploy and manage cloud infrastructures with AWS, Azure, and Google Cloud."
     },
     "skills.item7": {
-        "fr": "Optimiser les performances, l'accessibilité et le référencement (SEO).",
-        "en": "Optimize performance, accessibility, and SEO."
+        "fr": "Maîtriser l'optimisation des performances, l'accessibilité et le SEO pour une expérience utilisateur améliorée.",
+        "en": "Proficient in optimizing performance, accessibility, and SEO for enhanced user experience."
     },
     "skills.item8": {
         "fr": "Concevoir une interface utilisateur (UI) basée sur l'expérience utilisateur (UX).",
@@ -107,14 +107,14 @@ var translations = {
     },
     "experiences.item1.details": {
         "fr": "<span class='compagny'>Employé </span>Paris/ 2022 - présent",
-        "en": "<span class='compagny'>Employee </span>Paris/ 2022 - present"
+        "en": "<span class='compagny'>Employee </span>Paris/ 2022 - now"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
         "en": "Web Developer"
     },
     "experiences.item2.details": {
-        "fr": "<span class='compagny'>Freelancer </span>Paris/ 2021 - 2022",
+        "fr": "<span class='compagny'>Indépendant </span>Paris/ 2021 - 2022",
         "en": "<span class='compagny'>Freelancer </span>Paris/ 2021 - 2022"
     },
     "experiences.item3.title": {
@@ -146,8 +146,8 @@ var translations = {
         "en": "Degrees and Education"
     },
     "formations.item1.title": {
-        "fr": "Développeur logiciel",
-        "en": "Software Developer"
+        "fr": "Développeur Concepteur logiciel",
+        "en": "Software Designer Developer "
     },
     "formations.item1.details": {
         "fr": "<span class='compagny'>Openclassrooms </span>Paris/ mai 2022 - mai 2024",
@@ -171,7 +171,7 @@ var translations = {
     },
     "formations.item4.title": {
         "fr": "Préparation Physique et Réathlétisation",
-        "en": "Physical Preparation and Reathletization"
+        "en": "Physical Preparation and Rehab"
     },
     "formations.item4.details": {
         "fr": "<span class='compagny'>Université d'Evry </span>Evry/ septembre 2017 - août 2018",
@@ -195,7 +195,7 @@ var translations = {
     },
     "formations.item7.title": {
         "fr": "Baccalauréat Général",
-        "en": "General Baccalaureate"
+        "en": "High School Diploma"
     },
     "formations.item7.details": {
         "fr": "<span class='compagny'>Lycée Villaroy </span>Guyancourt/ septembre 2004 - juillet 2007",
