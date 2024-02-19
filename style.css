@@ -132,9 +132,12 @@ body {
 .right-side {
   background-color: var(--main-color);
   color: var(--secondary-text-color);
-  font-size: 26px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.contact-infos {
+  font-size: 26px;
 }
 
 .right-side h4 {
@@ -208,7 +211,8 @@ button:hover {
 
 .skills_progressbar h3,
 .lang h3,
-.interest h3 {
+.hobbies h3 {
+  font-size: 26px;
   margin-bottom: 1rem;
 }
 
@@ -285,20 +289,30 @@ button:hover {
   margin : .5rem;
 }
 
-.lang img,
-.interest img {
+.languages {
+  font-size: 24px;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: auto;
+  grid-gap: 8px;
+}
+
+.lang img {
   cursor: pointer;
-  margin-top: 1rem;
   margin-bottom: 0;
-  width: 5vw;
-  height: 7vh;
+  width: 4vw;
+  height: 5vh;
   border-radius: 8px;
   box-shadow: 1px 1px 1px black;
 }
 
+.hobbies {
+  font-size: 22px;
+}
+
 .skills_progressbar img:hover,
-.lang img:hover,
-.interest img:hover {
+.lang img:hover {
   transform: scale(1.1);
   transition: linear;
 }
@@ -341,15 +355,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-.interest {
-  margin-top: 2.5rem;
-}
-
-.right-side p {
-  margin: .5rem;
-}
-
 
 /*Range - slider style*/
 input[type="range"] {
@@ -518,6 +523,14 @@ input[type="range"] {
     height: .7rem;
   }
 
+  .languages {
+    font-size: 14px;
+    grid-gap: 6px;
+  }
+
+  .hobbies {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -605,10 +618,6 @@ input[type="range"] {
     font-size: 15px;
   }
 
-  .right-side p {
-    margin: .3rem;
-  }
-
   .right-side ul li i {
     font-size: 24px;
     margin-right: 1rem;
@@ -626,6 +635,15 @@ input[type="range"] {
   .personal-infos ul {
     padding-right: .3rem;
   }
+
+  .languages {
+    margin: 1rem;
+    font-size: 12px;
+    grid-gap: 6px;
+  }
+
+  .lang img {
+    width: 5vw;
 }
 
 @media only screen and (max-width: 420px) {
@@ -641,10 +659,12 @@ input[type="range"] {
   .jobgoal {
     font-size: 16px;
   }
+  
 
   .pitch {
-    font-size: 16px;
+    font-size: 12px;
     margin-right: .5rem;
+    margin-bottom: .5rem;
   }
 
   .skills {
@@ -652,6 +672,17 @@ input[type="range"] {
     padding-right: .5rem;
     font-size: 12px;
   }
+
+  .hobbies {
+    font-size: 12px;
+  }
+
+  .skills_progressbar h3,
+  .lang h3,
+  .hobbies h3 {
+  font-size: 22px;
+  margin-top: .5rem;
+}
 
   .left-side h3 {
     margin-left: 0;
@@ -745,18 +776,21 @@ input[type="range"] {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.537);
   }
 
-  .lang img,
-  .interest img {
+  .lang img {
     width: 26px;
     height: 20px;
-    margin-top: .2rem;
     border-radius: 4px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.537);
   }
 
+  .languages {
+    margin: .5rem;
+    font-size: 10px;
+    grid-gap: 4px;
+  }
+
   .skills_progressbar img:hover,
-  .lang img:hover,
-  .interest img:hover {
+  .lang img:hover {
     transform: scale(1);
     transition: linear;
   }

@@ -206,7 +206,7 @@ var translations = {
         "en": "<i class='fas fa-road'></i>Driving License"
     },
     "mobility": {
-        "fr": "<i class='fas fa-plane-departure'></i>Mobilité: Internationalle",
+        "fr": "<i class='fas fa-plane-departure'></i>Mobilité Internationale",
         "en": "<i class='fas fa-plane-departure'></i>International Mobility"
     },
     "technologies.title": {
@@ -253,42 +253,34 @@ var translations = {
         "fr": "Langues",
         "en": "Languages"
     },
-    "languages.item1": {
-        "fr": "Anglais",
-        "en": "English"
+    "languages.french": {
+        "fr": "Maternel",
+        "en": "Native"
     },
-    "languages.item2": {
-        "fr": "Espagnol",
-        "en": "Spanish"
+    "languages.english": {
+        "fr": "Affaires",
+        "en": "Business"
     },
-    "languages.item3": {
-        "fr": "Japonais",
-        "en": "Japanese"
+    "languages.spanish": {
+        "fr": "Débutant",
+        "en": "Beginner"
+    },
+    "languages.japanese": {
+        "fr": "Débutant",
+        "en": "Beginner"
     },
     "languages.proficiency": {
         "fr": "Maîtrise",
         "en": "Proficiency"
     },
-    "interests.title": {
+    "hobbies.title": {
         "fr": "Centres d'intérêt",
-        "en": "Interests"
+        "en": "Hobbies"
     },
-    "interests.item1": {
-        "fr": "Voyages",
-        "en": "Travel"
-    },
-    "interests.item2": {
-        "fr": "Sport",
-        "en": "Sport"
-    },
-    "interests.item3": {
-        "fr": "Jeux vidéo",
-        "en": "Video Games"
-    },
-    "interests.item4": {
-        "fr": "Arts martiaux",
-        "en": "Martial Arts"
-    },
+    "hobbies": {
+        "fr": "Sport, voyage, jeux vidéos, spiritualité",
+        "en": "Sport, travel, video games, spirituality"
+    }
 };
 
 
