@@ -7,6 +7,7 @@ const portfolio = document.getElementById("portfolioLink");
 const tradBar = document.getElementById('gt-nvframe');
 const print_pdf = document.getElementById('print_pdf');
 const age = document.getElementById('age');
+var currentLanguage = document.currentScript.getAttribute('data-current-language') || 'en';
 let aged = false;
 
 function getAge(date) {
@@ -17,8 +18,14 @@ function getAge(date) {
 
 window.addEventListener("load", function () {
     if (!aged) {
-        age.append(getAge(new Date(1988, 3, 23)) + " ans");
-        aged = true;
+        if(currentLanguage === "fr") {
+            age.append(getAge(new Date(1988, 3, 23)) + " ans");
+            aged = true;
+        }
+        else {
+            age.append(getAge(new Date(1988, 3, 23)) + " years old");
+            aged = true;
+        }
     }
 });
 
@@ -44,7 +51,7 @@ window.addEventListener("click", function (e) {
     }
     else {
         if (targetType === "img") {
-            e.target.style.animation = "rotation .8s linear"
+            e.target.style.animation = "rotation .45s linear"
         }
         
         this.setTimeout(function () {

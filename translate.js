@@ -201,9 +201,53 @@ var translations = {
         "fr": "<span class='compagny'>Lycée Villaroy </span>Guyancourt/ septembre 2004 - juillet 2007",
         "en": "<span class='compagny'>Villaroy High School </span>Guyancourt/ September 2004 - July 2007"
     },
+    "driving-license": {
+        "fr": "<i class='fas fa-road'></i>Permis de conduire",
+        "en": "<i class='fas fa-road'></i>Driving License"
+    },
+    "mobility": {
+        "fr": "<i class='fas fa-plane-departure'></i>Mobilité: Internationalle",
+        "en": "<i class='fas fa-plane-departure'></i>International Mobility"
+    },
     "technologies.title": {
         "fr": "Technologies",
         "en": "Technologies"
+    },
+    "technologies.backend": {
+        "fr": "Back-end",
+        "en": "Back-end"
+    },
+    "technologies.frontend": {
+        "fr": "Front-end",
+        "en": "Front-end"
+    },
+    "technologies.server": {
+        "fr": "Gestion de serveur",
+        "en": "Server management"
+    },
+    "technologies.databases": {
+        "fr": "Gestion de base de données",
+        "en": "Database management"
+    },
+    "technologies.cloud": {
+        "fr": "Services Cloud",
+        "en": "Cloud services"
+    },
+    "technologies.programminglanguages": {
+        "fr": "Langages de programmation",
+        "en": "Programming languages"
+    },
+    "technologies.os": {
+        "fr": "OS & Commandes",
+        "en": "OS & Command Prompts"
+    },
+    "technologies.datatools": {
+        "fr": "Outils de gestion de données",
+        "en": "Data Management Tools"
+    },
+    "technologies.tools": {
+        "fr": "Outils de collaboration",
+        "en": "Collaboration Tools"
     },
     "languages.title": {
         "fr": "Langues",
