@@ -26,7 +26,7 @@ body {
 
 .pitch {
   color: var(--main-color);
-  font-size: 31px;
+  font-size: 26px;
   margin-right: 2rem;
   margin-bottom: 2rem;
   max-width: 80%;
@@ -233,6 +233,7 @@ button:hover {
 
 .level-bar {
   border-radius: 8px;
+  font-size: 26px;
   height: 6vh;
   width: 90%;
   margin: 0;
@@ -450,12 +451,8 @@ input[type="range"] {
     font-size: 28px;
   }
 
-  .pitch {
-    font-size: 32px;
-    margin-bottom: 1rem;
-  }
-
   .left-side h3 {
+    margin-left: 0;
     font-size: 28px;
   }
 
@@ -510,6 +507,7 @@ input[type="range"] {
   .level-bar {
     height: 4vh;
     border-radius: 4px;
+    font-size: 18px;
   }
 
   ::-moz-range-track {
@@ -539,8 +537,9 @@ input[type="range"] {
   }
 
   .level-bar {
-    height: 1.5vh;
+    height: 2vh;
     border-radius: 4px;
+    font-size: 18px;
   }
 
   .left-side {
@@ -574,11 +573,12 @@ input[type="range"] {
   }
 
   .pitch {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 1rem;
   }
 
   .left-side h3 {
+    margin-left: 0;
     font-size: 24px;
   }
 
@@ -654,6 +654,7 @@ input[type="range"] {
   }
 
   .left-side h3 {
+    margin-left: 0;
     font-size: 16px;
   }
 
@@ -682,8 +683,9 @@ input[type="range"] {
     font-size: 10px;
   }
   .level-bar {
-    height: 1.2vh;
+    height: 1.8vh;
     border-radius: 4px;
+    font-size: 14px;
   }
 
   .right-side ul li i {
