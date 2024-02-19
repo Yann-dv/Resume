@@ -202,12 +202,12 @@ var translations = {
         "en": "<span class='compagny'>Villaroy High School </span>Guyancourt/ September 2004 - July 2007"
     },
     "driving-license": {
-        "fr": "<i class='fas fa-road'></i>Permis de conduire",
-        "en": "<i class='fas fa-road'></i>Driving License"
+        "fr": "<i class='fas fa-road'></i><span>Permis de conduire</span>",
+        "en": "<i class='fas fa-road'></i><span>Driving License</span>"
     },
     "mobility": {
-        "fr": "<i class='fas fa-plane-departure'></i>Mobilité Internationale",
-        "en": "<i class='fas fa-plane-departure'></i>International Mobility"
+        "fr": "<i class='fas fa-plane-departure'></i><span style='margin-left: -4px'>Mobilité Internationale</span>",
+        "en": "<i class='fas fa-plane-departure'></i><span style='margin-left: -4px'>International Mobility</span>"
     },
     "technologies.title": {
         "fr": "Technologies",
