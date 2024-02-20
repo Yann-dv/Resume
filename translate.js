@@ -112,8 +112,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "experiences.item1.details": {
-        "fr": "<span class='compagny'>Employé </span>Paris/ 2022 - actuellement",
-        "en": "<span class='compagny'>Employee </span>Paris/ 2022 - currently"
+        "fr": "<span class='compagny'>Employé </span>chez D-EDGE (Logiciels hôteliers) Paris/ 2022 - actuellement",
+        "en": "<span class='compagny'>Employee </span>at D-EDGE (Hotelier softwares) Paris/ 2022 - currently"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
@@ -128,8 +128,8 @@ var translations = {
         "en": "Osteopath"
     },
     "experiences.item3.details": {
-        "fr": "<span class='compagny'>Cabinet privé </span>Paris/ septembre 2016 - décembre 2021",
-        "en": "<span class='compagny'>Private Practice </span>Paris/ September 2016 - December 2021"
+        "fr": "<span class='compagny'>Cabinet privé, clinique </span>Paris/ 2011 - décembre 2021",
+        "en": "<span class='compagny'>Private Practice, clinic </span>Paris/ 2011 - December 2021"
     },
     "formations.title": {
         "fr": "Diplômes et Éducation",
@@ -188,28 +188,32 @@ var translations = {
         "en": "Front-end"
     },
     "technologies.server": {
-        "fr": "Gestion de serveur",
-        "en": "Server management"
+        "fr": "Serveur web",
+        "en": "Web server"
+    },
+    "technologies.containers": {
+        "fr": "Conteneurs & VM",
+        "en": "Containers & VM"
     },
     "technologies.databases": {
         "fr": "Gestion de base de données",
         "en": "Database management"
     },
+    "technologies.versioncontrol": {
+        "fr": "Contrôle de version",
+        "en": "Version control"
+    },
     "technologies.cloud": {
         "fr": "Services Cloud",
         "en": "Cloud services"
     },
-    "technologies.programminglanguages": {
-        "fr": "Langages de programmation",
-        "en": "Programming languages"
-    },
     "technologies.os": {
-        "fr": "OS & Commandes",
-        "en": "OS & Command Prompts"
+        "fr": "OS & Shells",
+        "en": "OS & Shells"
     },
     "technologies.datatools": {
-        "fr": "Outils de gestion de données",
-        "en": "Data Management Tools"
+        "fr": "Outils de visualisations",
+        "en": "Monitoring tools"
     },
     "technologies.tools": {
         "fr": "Outils de collaboration",
@@ -220,11 +224,11 @@ var translations = {
         "en": "Languages"
     },
     "languages.french": {
-        "fr": "Maternel",
+        "fr": "Maternelle",
         "en": "Native"
     },
     "languages.english": {
-        "fr": "Affaires",
+        "fr": "Professionnel",
         "en": "Business"
     },
     "languages.spanish": {

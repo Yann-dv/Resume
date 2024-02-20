@@ -256,6 +256,10 @@ button:hover {
   background: linear-gradient(to right, var(--main-bg-color) 65%, var(--webkit-track-color) 35%);
 }
 
+.containers {
+  background: linear-gradient(to right, var(--main-bg-color) 55%, var(--webkit-track-color) 45%);
+}
+
 .databases {
   background: linear-gradient(to right, var(--main-bg-color) 70%, var(--webkit-track-color) 30%);
 }
@@ -296,6 +300,18 @@ button:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-row: auto;
   grid-gap: 8px;
+}
+.job-experience {
+  margin-left: 2rem;
+}
+
+.job-experience p {
+  margin-bottom: .5rem
+}
+
+.experiences-list {
+  padding: .2rem;
+  margin-top: .2rem;
 }
 
 .lang img {
