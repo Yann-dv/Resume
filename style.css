@@ -137,7 +137,7 @@ body {
 }
 
 .contact-infos {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .right-side h4 {
@@ -337,7 +337,7 @@ button:hover {
 .avatar {
   cursor: pointer;
   margin-top: 2rem;
-  width: 50%;
+  width: 40%;
   box-shadow: 3px 3px 0px var(--main-bg-color);
 }
 

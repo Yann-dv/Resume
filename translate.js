@@ -106,8 +106,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "experiences.item1.details": {
-        "fr": "<span class='compagny'>Employé </span>Paris/ 2022 - présent",
-        "en": "<span class='compagny'>Employee </span>Paris/ 2022 - now"
+        "fr": "<span class='compagny'>Employé </span>Paris/ 2022 - actuellement",
+        "en": "<span class='compagny'>Employee </span>Paris/ 2022 - currently"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
@@ -124,22 +124,6 @@ var translations = {
     "experiences.item3.details": {
         "fr": "<span class='compagny'>Cabinet privé </span>Paris/ septembre 2016 - décembre 2021",
         "en": "<span class='compagny'>Private Practice </span>Paris/ September 2016 - December 2021"
-    },
-    "experiences.item4.title": {
-        "fr": "Entraîneur sportif, Instructeur de boxe",
-        "en": "Sports Coach, Boxing Instructor"
-    },
-    "experiences.item4.details": {
-        "fr": "<span class='compagny'>Body-Hit, Club-360 </span>Versailles, Tokyo/ janvier - septembre 2019",
-        "en": "<span class='compagny'>Body-Hit, Club-360 </span>Versailles, Tokyo/ January - September 2019"
-    },
-    "experiences.item5.title": {
-        "fr": "Manutentionnaire",
-        "en": "Handler"
-    },
-    "experiences.item5.details": {
-        "fr": "<span class='compagny'>La Bellevilloise </span>Paris/ novembre 2011 - septembre 2016",
-        "en": "<span class='compagny'>La Bellevilloise </span>Paris/ November 2011 - September 2016"
     },
     "formations.title": {
         "fr": "Diplômes et Éducation",
@@ -162,44 +146,20 @@ var translations = {
         "en": "<span class='compagny'>Openclassrooms </span>Paris/ March 2021 - September 2021"
     },
     "formations.item3.title": {
-        "fr": "BPJEPS Sports de Contact et Disciplines Associées",
-        "en": "BPJEPS Contact Sports and Associated Disciplines"
-    },
-    "formations.item3.details": {
-        "fr": "<span class='compagny'>CREPS IDF </span>Châtenay-Malabry/ 2022",
-        "en": "<span class='compagny'>CREPS IDF </span>Châtenay-Malabry/ 2022"
-    },
-    "formations.item4.title": {
-        "fr": "Préparation Physique et Réathlétisation",
-        "en": "Physical Preparation and Rehab"
-    },
-    "formations.item4.details": {
-        "fr": "<span class='compagny'>Université d'Evry </span>Evry/ septembre 2017 - août 2018",
-        "en": "<span class='compagny'>University of Evry </span>Evry/ September 2017 - August 2018"
-    },
-    "formations.item5.title": {
         "fr": "Ostéopathe",
         "en": "Osteopath"
     },
-    "formations.item5.details": {
+    "formations.item3.details": {
         "fr": "<span class='compagny'>École d'Ostéopathie de Paris </span>Paris/ septembre 2011 - septembre 2016",
         "en": "<span class='compagny'>Paris School of Osteopathy </span>Paris/ September 2011 - September 2016"
     },
-    "formations.item6.title": {
-        "fr": "Naturopathe",
-        "en": "Naturopath"
+    "formations.item4.title": {
+        "fr": "Enseignement général",
+        "en": "General education"
     },
-    "formations.item6.details": {
-        "fr": "<span class='compagny'>C.I.E.S </span>Montpellier/ septembre 2008 - octobre 2009",
-        "en": "<span class='compagny'>C.I.E.S </span>Montpellier/ September 2008 - October 2009"
-    },
-    "formations.item7.title": {
-        "fr": "Baccalauréat Général",
-        "en": "High School Diploma"
-    },
-    "formations.item7.details": {
-        "fr": "<span class='compagny'>Lycée Villaroy </span>Guyancourt/ septembre 2004 - juillet 2007",
-        "en": "<span class='compagny'>Villaroy High School </span>Guyancourt/ September 2004 - July 2007"
+    "formations.item4.details": {
+        "fr": "<span class='compagny'>Lycée de Villaroy </span>Guyancourt/ 2004 - 2011</p>",
+        "en": "<span class='compagny'>Villaroy High School </span>Guyancourt/ 2004 - 2011</p>"
     },
     "driving-license": {
         "fr": "<i class='fas fa-road'></i><span>Permis de conduire</span>",
