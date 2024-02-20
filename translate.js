@@ -131,6 +131,171 @@ var translations = {
         "fr": "<span class='compagny'>Cabinet privé, clinique </span>Paris/ 2011 - décembre 2021",
         "en": "<span class='compagny'>Private Practice, clinic </span>Paris/ 2011 - December 2021"
     },
+    // Experience Item 1 Translations
+    "experiences.item1.missions": {
+        "fr": "<strong>Missions :</strong>",
+        "en": "<strong>Missions :</strong>"
+    },
+    "experiences.item1.mission1": {
+        "fr": "Conception et développement d'applications logicielles pour répondre aux attentes des clients.",
+        "en": "Design and development of software applications to meet client expectations."
+    },
+    "experiences.item1.mission2": {
+        "fr": "Collaboration étroite avec les équipes de conception pour garantir une expérience utilisateur optimale.",
+        "en": "Close collaboration with design teams to ensure optimal user experience."
+    },
+    "experiences.item1.mission3": {
+        "fr": "Optimisation des performances de l'application pour garantir une réponse rapide.",
+        "en": "Optimization of application performance to ensure a rapid response."
+    },
+    "experiences.item1.mission4": {
+        "fr": "Examen de code et résolution de problèmes complexes.",
+        "en": "Code review and resolution of complex issues."
+    },
+    "experiences.item1.tools": {
+        "fr": "<strong>Outils / Technologies :</strong>",
+        "en": "<strong>Tools/Technologies :</strong>"
+    },
+    "experiences.item1.tool1": {
+        "fr": "Langages de programmation : C#, F#.",
+        "en": "Programming languages: C#, F#."
+    },
+    "experiences.item1.tool2": {
+        "fr": "Frameworks : .NET, Fable.",
+        "en": "Frameworks: .NET, Fable."
+    },
+    "experiences.item1.tool3": {
+        "fr": "Gestion de base de données : MySQL, MSSQL.",
+        "en": "Database management: MySQL, MSSQL."
+    },
+    "experiences.item1.tool4": {
+        "fr": "Contrôle de version : Git & Gitlab.",
+        "en": "Version Control: Git & Gitlab."
+    },
+    "experiences.item1.tool5": {
+        "fr": "Intégration continue : Gitlab CI/CD.",
+        "en": "Continuous Integration: Gitlab CI/CD."
+    },
+    "experiences.item1.skills": {
+        "fr": "<strong>Compétences requises :</strong>",
+        "en": "<strong>Skills for this job :</strong>"
+    },
+    "experiences.item1.skill1": {
+        "fr": "Développement logiciel agile.",
+        "en": "Agile software development."
+    },
+    "experiences.item1.skill2": {
+        "fr": "Connaissance approfondie des frameworks C# (.NET).",
+        "en": "In-depth knowledge of C# frameworks (.NET)."
+    },
+    "experiences.item1.skill3": {
+        "fr": "Bonne pratique du développement et de la conception logiciels.",
+        "en": "Good practices of software development and design."
+    },
+    "experiences.item1.skill4": {
+        "fr": "Expérience dans la résolution de problèmes complexes.",
+        "en": "Experience in resolving complex problems."
+    },
+
+    // Experience Item 2 Translations
+    "experiences.item2.missions": {
+        "fr": "<strong>Missions :</strong>",
+        "en": "<strong>Missions :</strong>"
+    },
+    "experiences.item2.mission1": {
+        "fr": "Conception et développement de sites web et applications réactives et conviviales.",
+        "en": "Design and development of responsive and user-friendly websites & applications."
+    },
+    "experiences.item2.mission2": {
+        "fr": "Implémentation de fonctionnalités sur mesure en fonction des besoins du client.",
+        "en": "Implementation of custom features and functionalities based on client requirements."
+    },
+    "experiences.item2.mission3": {
+        "fr": "Collaboration avec les clients pour comprendre et répondre à leurs besoins spécifiques et objectifs.",
+        "en": "Collaboration with clients to understand and address their specific needs and goals."
+    },
+    "experiences.item2.tools": {
+        "fr": "<strong>Outils / Technologies :</strong>",
+        "en": "<strong>Tools/Technologies :</strong>"
+    },
+    "experiences.item2.tool1": {
+        "fr": "HTML, CSS, JavaScript pour le développement front-end.",
+        "en": "HTML, CSS, JavaScript for front-end development."
+    },
+    "experiences.item2.tool2": {
+        "fr": "Expérience avec des frameworks/bibliothèques populaires tels que React, Vue.js, WordPress and Wix.",
+        "en": "Experience with popular frameworks/libraries such as React, Vue.js, WordPress and Wix."
+    },
+    "experiences.item2.tool3": {
+        "fr": "Connaissance des technologies back-end telles que Node.js ou PHP.",
+        "en": "Knowledge of back-end technologies like Node.js or PHP."
+    },
+    "experiences.item2.tool4": {
+        "fr": "Contrôle de version avec Git et GitHub.",
+        "en": "Version control with Git and GitHub."
+    },
+    "experiences.item2.skills": {
+        "fr": "<strong>Compétences améliorées :</strong>",
+        "en": "<strong>Improved Skills :</strong>"
+    },
+    "experiences.item2.skill1": {
+        "fr": "Compétent en développement front-end avec un accent sur l'expérience utilisateur.",
+        "en": "Proficient in front-end development with a focus on user experience."
+    },
+    "experiences.item2.skill2": {
+        "fr": "Capacité à traduire les exigences du client en solutions techniques.",
+        "en": "Ability to translate client requirements into technical solutions."
+    },
+    "experiences.item2.skill3": {
+        "fr": "Compétences efficaces en communication et collaboration.",
+        "en": "Effective communication and collaboration skills."
+    },
+
+    // Experience Item 3 Translations
+    "experiences.item3.missions": {
+        "fr": "<strong>Missions :</strong>",
+        "en": "<strong>Missions :</strong>"
+    },
+    "experiences.item3.mission1": {
+        "fr": "Fournir des traitements ostéopathiques personnalisés aux patients.",
+        "en": "Providing personalized osteopathic treatments for patients."
+    },
+    "experiences.item3.mission2": {
+        "fr": "Réaliser des évaluations et examens approfondis pour diagnostiquer et traiter les problèmes musculo-squelettiques.",
+        "en": "Conducting thorough assessments and examinations to diagnose and address musculoskeletal issues."
+    },
+    "experiences.item3.mission3": {
+        "fr": "Éduquer les patients sur les mesures préventives et les modifications de style de vie.",
+        "en": "Educating patients on preventive measures and lifestyle modifications."
+    },
+    "experiences.item3.tools": {
+        "fr": "<strong>Outils / Technologies :</strong>",
+        "en": "<strong>Tools/Technologies :</strong>"
+    },
+    "experiences.item3.tool1": {
+        "fr": "Techniques ostéopathiques manuelles.",
+        "en": "Manual osteopathic techniques."
+    },
+    "experiences.item3.tool2": {
+        "fr": "Systèmes de gestion des patients pour la tenue des dossiers.",
+        "en": "Patient management systems for record-keeping."
+    },
+    "experiences.item3.skills": {
+        "fr": "<strong>Compétences améliorées :</strong>",
+        "en": "<strong>Improved Skills :</strong>"
+    },
+    "experiences.item3.skill1": {
+        "fr": "Connaissance approfondie des principes et techniques ostéopathiques.",
+        "en": "In-depth knowledge of osteopathic principles and techniques."
+    },
+    "experiences.item3.skill2": {
+        "fr": "Compétences interpersonnelles et communication avec les patients.",
+        "en": "Interpersonal and communication skills with patients."
+    },
+    "experiences.item3.skill3": {
+        "fr": "Capacité à analyser et diagnostiquer des conditions musculo-squelettiques.",
+        "en": "Ability to analyze and diagnose musculoskeletal conditions."
+    },
     "formations.title": {
         "fr": "Diplômes et Éducation",
         "en": "Degrees and Education"
