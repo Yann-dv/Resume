@@ -145,10 +145,14 @@ var translations = {
         "en": "Close collaboration with design teams to ensure optimal user experience."
     },
     "experiences.item1.mission3": {
+        "fr": "Collaboration étroite avec les équipes commerciales et produits pour répondre aux exigences techniques et fonctionnelles.",
+        "en": "Close collaboration with business and product teams to meet technical and fonctional requirements."
+    },
+    "experiences.item1.mission4": {
         "fr": "Optimisation des performances de l'application pour garantir une réponse rapide.",
         "en": "Optimization of application performance to ensure a rapid response."
     },
-    "experiences.item1.mission4": {
+    "experiences.item1.mission5": {
         "fr": "Examen de code et résolution de problèmes complexes.",
         "en": "Code review and resolution of complex issues."
     },
@@ -165,34 +169,46 @@ var translations = {
         "en": "Frameworks: .NET, Fable."
     },
     "experiences.item1.tool3": {
-        "fr": "Gestion de base de données : MySQL, MSSQL.",
-        "en": "Database management: MySQL, MSSQL."
+        "fr": "Gestion de base de données : MySQL, MongoDB, MSSQL.",
+        "en": "Database management: MySQL, MongoDB, MSSQL."
     },
     "experiences.item1.tool4": {
         "fr": "Contrôle de version : Git & Gitlab.",
         "en": "Version Control: Git & Gitlab."
     },
     "experiences.item1.tool5": {
-        "fr": "Intégration continue : Gitlab CI/CD.",
+        "fr": "Intégration continue : Gitlab CI/CD",
         "en": "Continuous Integration: Gitlab CI/CD."
     },
     "experiences.item1.skills": {
-        "fr": "<strong>Compétences requises :</strong>",
-        "en": "<strong>Skills for this job :</strong>"
+        "fr": "<strong>Compétences développées :</strong>",
+        "en": "<strong>Improved skills :</strong>"
     },
     "experiences.item1.skill1": {
-        "fr": "Développement logiciel agile.",
-        "en": "Agile software development."
+        "fr": "Principes d'ingénierie logicielle et bonnes pratiques de programmation.",
+        "en": "Software engineering concepts and programming best practices."
     },
     "experiences.item1.skill2": {
+        "fr": "Programmation orientée objet et programmation fonctionnelle.",
+        "en": "Oriented object programming and functional programming."
+    },
+    "experiences.item1.skill3": {
+        "fr": "Patrons de conception et principes SOLID.",
+        "en": "Design patterns and SOLID principles."
+    },
+    "experiences.item1.skill4": {
+        "fr": "Méthodologies Agile et cadre Scrum.",
+        "en": "Agile methodologies and Scrum framework."
+    },
+    "experiences.item1.skill5": {
         "fr": "Connaissance approfondie des frameworks C# (.NET).",
         "en": "In-depth knowledge of C# frameworks (.NET)."
     },
-    "experiences.item1.skill3": {
+    "experiences.item1.skill6": {
         "fr": "Bonne pratique du développement et de la conception logiciels.",
         "en": "Good practices of software development and design."
     },
-    "experiences.item1.skill4": {
+    "experiences.item1.skill7": {
         "fr": "Expérience dans la résolution de problèmes complexes.",
         "en": "Experience in resolving complex problems."
     },
@@ -227,15 +243,15 @@ var translations = {
         "en": "Experience with popular frameworks/libraries such as React, Vue.js, WordPress and Wix."
     },
     "experiences.item2.tool3": {
-        "fr": "Connaissance des technologies back-end telles que Node.js ou PHP.",
-        "en": "Knowledge of back-end technologies like Node.js or PHP."
+        "fr": "Utilisation de technologies de serveur web comme Nginx, Node.js, Wamp/Xampp.",
+        "en": "Use of web server technologies like Nginx, Node.js, Wamp/Xampp"
     },
     "experiences.item2.tool4": {
         "fr": "Contrôle de version avec Git et GitHub.",
         "en": "Version control with Git and GitHub."
     },
     "experiences.item2.skills": {
-        "fr": "<strong>Compétences améliorées :</strong>",
+        "fr": "<strong>Compétences développées :</strong>",
         "en": "<strong>Improved Skills :</strong>"
     },
     "experiences.item2.skill1": {
@@ -281,7 +297,7 @@ var translations = {
         "en": "Patient management systems for record-keeping."
     },
     "experiences.item3.skills": {
-        "fr": "<strong>Compétences améliorées :</strong>",
+        "fr": "<strong>Compétences développées :</strong>",
         "en": "<strong>Improved Skills :</strong>"
     },
     "experiences.item3.skill1": {
