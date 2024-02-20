@@ -1,13 +1,19 @@
+var userLanguage = navigator.language.substring(0, 2);
 var currentLanguage = document.currentScript.getAttribute('data-current-language') || 'en';
 var translateButton = document.getElementById('translate-button');
 
 translateButton.addEventListener('click', toggleLanguage);
 
+window.onload = function () {
+    if(userLanguage === 'fr')
+    {
+        toggleLanguage();
+    }
+};
 
 function toggleLanguage() {
     currentLanguage = (currentLanguage === 'fr') ? 'en' : 'fr';
     translatePage(); 
-
     if (translateButton) {
         translateButton.style.backgroundImage = (currentLanguage === 'fr') ? 'url("./images/en-flag.png")' : 'url("./images/fr-flag.png")';
     }
@@ -242,6 +248,3 @@ var translations = {
         "en": "Sport, travel, video games, spirituality"
     }
 };
-
-
-translatePage();
