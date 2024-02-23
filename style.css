@@ -242,6 +242,11 @@ button:hover {
   width: 90%;
   margin: 0;
   color: var(--secondary-bg-color);
+  overflow-y: clip;
+}
+
+.engineering {
+  background: linear-gradient(to right, var(--main-bg-color) 70%, var(--webkit-track-color) 30%);
 }
 
 .backend {
@@ -254,6 +259,10 @@ button:hover {
 
 .servers {
   background: linear-gradient(to right, var(--main-bg-color) 65%, var(--webkit-track-color) 35%);
+}
+
+.queues {
+  background: linear-gradient(to right, var(--main-bg-color) 60%, var(--webkit-track-color) 40%);
 }
 
 .containers {

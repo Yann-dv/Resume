@@ -356,9 +356,13 @@ var translations = {
         "fr": "<i class='fas fa-plane-departure'></i><span style='margin-left: -4px'>Mobilité Internationale</span>",
         "en": "<i class='fas fa-plane-departure'></i><span style='margin-left: -4px'>International Mobility</span>"
     },
+    "engineering.title": {
+        "fr": "Ingénierie logicielle",
+        "en": "Software Engineering"
+    },
     "technologies.title": {
-        "fr": "Technologies",
-        "en": "Technologies"
+        "fr": "Compétences",
+        "en": "Skills"
     },
     "technologies.backend": {
         "fr": "Back-end",
