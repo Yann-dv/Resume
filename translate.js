@@ -56,8 +56,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "pitch": {
-        "fr": "\"J'aide les entreprises à concevoir des applications efficaces et innovantes, axées sur l'expérience utilisateur.\"",
-        "en": "\"I help companies design efficient and innovative applications, focused on the user experience.\""
+        "fr": "\"J'aide les entreprises à concevoir des logiciels efficaces et innovants, axés sur l'expérience utilisateur.\"",
+        "en": "\"I help companies design efficient and innovative softwares, focused on the user experience.\""
     },
     "skills.title": {
         "fr": "Compétences",
@@ -112,8 +112,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "experiences.item1.details": {
-        "fr": "<span class='compagny'>Employé </span>chez D-EDGE (Logiciels hôteliers) Paris/ 2022 - actuellement",
-        "en": "<span class='compagny'>Employee </span>at D-EDGE (Hotelier softwares) Paris/ 2022 - currently"
+        "fr": "<span class='compagny'>Employé </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
+        "en": "<span class='compagny'>Employee </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
@@ -379,6 +379,10 @@ var translations = {
     "technologies.containers": {
         "fr": "Conteneurs & VM",
         "en": "Containers & VM"
+    },
+    "technologies.queues": {
+        "fr": "Systèmes de messages",
+        "en": "Message queue systems"
     },
     "technologies.databases": {
         "fr": "Gestion de base de données",

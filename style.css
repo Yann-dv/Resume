@@ -33,6 +33,12 @@ body {
 
 }
 
+
+.external-link {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
 .jobdesc {
   width: 60%
 }
