@@ -59,21 +59,20 @@ window.addEventListener("click", function (e) {
     }
 });
 
-var themeColor = "light"; // Default theme color
+
+var themeColor = "";
+var getOperatingSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+setThemeColor(getOperatingSystemTheme);
 
 toggleThemeBtn.addEventListener("click", function () {
     if(themeColor === "light") {
         themeColor = "dark";
         setThemeColor(themeColor);
-        toggleThemeBtn.style.cssText = "color: #FFFFFF; background-color: #000000";
-        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
     }
     else
     {
         themeColor = "light";
         setThemeColor(themeColor);
-        toggleThemeBtn.style.cssText = "color: #000000; background-color: #FFFFFF";
-        toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
     }
 });
 
@@ -127,6 +126,8 @@ function setThemeColor(themeColor) {
             --secondary-text-color: #FFFFFF;
             --webkit-track-color: #1D749B
             `;
+            toggleThemeBtn.style.cssText = "color: #000000; background-color: #FFFFFF";
+            toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
         }
         else {
             html.style.cssText = `
@@ -138,6 +139,8 @@ function setThemeColor(themeColor) {
             --secondary-text-color: #0D1117;
             --webkit-track-color: #380b99;
             `;
+            toggleThemeBtn.style.cssText = "color: #FFFFFF; background-color: #000000";
+            toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
         }
     }
 }
