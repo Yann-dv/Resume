@@ -240,11 +240,11 @@ button:hover {
   box-shadow: 1px 1px 1px black;
 }
 
-
 .level-bar {
+  position: relative;
   border-radius: 8px;
-  font-size: 26px;
-  height: 6vh;
+  font-size: 22px;
+  height: 4vh;
   width: 90%;
   margin: 0;
   color: var(--secondary-bg-color);
@@ -540,10 +540,14 @@ input[type="range"] {
     margin-bottom: .5rem;
   }
 
-  .level-bar {
+  .skills_progressbar img {
     height: 4vh;
+  }
+
+  .level-bar {
+    height: 3vh;
+    font-size: 16px;
     border-radius: 4px;
-    font-size: 18px;
   }
 
   ::-moz-range-track {
@@ -561,6 +565,14 @@ input[type="range"] {
 
   .hobbies {
     font-size: 16px;
+  }
+
+  .contact-infos {
+    font-size: 16px;
+  }
+
+  .right-side ul li i {
+    font-size: 22px;
   }
 }
 

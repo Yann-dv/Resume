@@ -112,8 +112,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "experiences.item1.details": {
-        "fr": "<span class='compagny'>Employé </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
-        "en": "<span class='compagny'>Employee </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
+        "fr": "<span class='compagny'>Alternant </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
+        "en": "<span class='compagny'>Apprenticeship </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
@@ -155,6 +155,18 @@ var translations = {
     "experiences.item1.mission5": {
         "fr": "Examen de code et résolution de problèmes complexes.",
         "en": "Code review and resolution of complex issues."
+    },
+    "experiences.item1.mission6": {
+        "fr": "J'ai ravaillé sur l'amélioration continue de TARS, le système de réservation central d'Accor (utilisé par plus de 5k hôtels dans le monde).",
+        "en": "I worked on the continuous improvement of TARS, Accor's central reservation system (used by more thant 5k hotels worldiwde)."
+    },
+    "experiences.item1.mission7": {
+        "fr": "J'ai travaillé sur le développement du nouveau connecteur API HotelTonight v2 (AirBnb).",
+        "en": "I worked on the development of the new HotelTonight v2 connector API (AirBnb)."
+    },
+    "experiences.item1.mission8": {
+        "fr": "J'ai travaillé sur l'amélioration du code et le développement de fonctionnalités de certains connecteurs majeurs d'OTA (Booking.com, Expedia, Agoda, etc).",
+        "en": "I worked on the code improvment and features development of some major OTA's connectors (Booking.com, Expedia, Agoda, etc)."
     },
     "experiences.item1.tools": {
         "fr": "<strong>Outils / Technologies :</strong>",
