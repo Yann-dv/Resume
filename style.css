@@ -29,10 +29,7 @@ body {
   font-size: 26px;
   margin-right: 2rem;
   margin-bottom: 2rem;
-  max-width: 80%;
-
 }
-
 
 .external-link {
   color: var(--main-color);
@@ -122,7 +119,12 @@ body {
 }
 
 .skills {
+  padding-right: 1rem;
   font-size: 22px;
+}
+
+.skills-list {
+  padding-left: .5rem;
 }
 
 .skills li {
@@ -516,7 +518,7 @@ input[type="range"] {
   }
 
   .skills-list {
-    margin-left: -3rem;
+    padding-left: .1rem;
   }
   
   #theme-toggle i {
@@ -551,7 +553,7 @@ input[type="range"] {
     margin-bottom: .5rem;
   }
 
-  .skills_progressbar img {
+  .skills_progressbar img, .lang img {
     height: 4vh;
   }
 
@@ -663,7 +665,7 @@ input[type="range"] {
   }
 
   .skills-list {
-    margin-left: -3rem;
+    padding-left: .1rem;
   }
   .left-side .diploma-level {
     font-size: 15px;
@@ -826,7 +828,7 @@ input[type="range"] {
   }
 
   .skills-list {
-    margin-left: -3rem;
+    padding-left: .1rem;
   }
 
   .personal-infos>ul li {
@@ -892,5 +894,36 @@ input[type="range"] {
 
   50% {
     opacity: 0.3;
+  }
+}
+
+
+@media print {
+  .left-side, .right-side {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  }
+
+  .level-bar {
+    height: 2.5vh;
+  }
+
+  .languages img {
+    height: 3vh;
+  }
+
+  .skills_progressbar img {
+    height: 3vh;
+  }
+
+  .experiences {
+    margin-top: 6rem;
+  }
+
+  .hobbies {
+    margin-top: 9rem;
   }
 }

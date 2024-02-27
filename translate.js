@@ -424,22 +424,6 @@ var translations = {
         "fr": "Langues",
         "en": "Languages"
     },
-    "languages.french": {
-        "fr": "Maternelle",
-        "en": "Native"
-    },
-    "languages.english": {
-        "fr": "Professionnel",
-        "en": "Business"
-    },
-    "languages.spanish": {
-        "fr": "Débutant",
-        "en": "Beginner"
-    },
-    "languages.japanese": {
-        "fr": "Débutant",
-        "en": "Beginner"
-    },
     "languages.proficiency": {
         "fr": "Maîtrise",
         "en": "Proficiency"
