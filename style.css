@@ -53,7 +53,6 @@ body {
   grid-auto-flow: column;
   grid-template-columns: 2fr 1fr;
   margin-right: 0;
-  margin-left: .5rem;
 }
 
 .left-side,
@@ -63,6 +62,7 @@ body {
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: clip;
 }
 
 .left-side,
@@ -470,10 +470,6 @@ input[type="range"] {
 
 @media only screen and (max-width: 768px) {
 
-  .left-side {
-    margin-left: 1rem;
-  }
-
   .experiences-list li {
     font-size: 16px;
   }
@@ -500,7 +496,7 @@ input[type="range"] {
   }
 
   .skills {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .left-side h4 {
@@ -547,6 +543,10 @@ input[type="range"] {
     font-size: 22px;
   }
 
+  .skills_progressbar, .lang, .hobbies {
+    margin-left: -1.5rem;
+  }
+
   .skills_progressbar li {
     margin-bottom: .5rem;
   }
@@ -580,6 +580,7 @@ input[type="range"] {
 
   .contact-infos {
     font-size: 16px;
+    margin-left: -1.5rem;
   }
 
   .right-side ul li i {
@@ -604,7 +605,7 @@ input[type="range"] {
   }
 
   .level-bar {
-    height: 2vh;
+    height: 3vh;
     border-radius: 4px;
     font-size: 18px;
   }
@@ -615,10 +616,6 @@ input[type="range"] {
 
   .experiences-list li {
     font-size: 14px;
-  }
-
-  .right-side ul {
-    padding-left: .6rem;
   }
 
   input[type="range"] {
@@ -654,7 +651,7 @@ input[type="range"] {
   }
 
   .skills {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .left-side h4 {
@@ -694,6 +691,14 @@ input[type="range"] {
     margin: 1rem;
     font-size: 12px;
     grid-gap: 6px;
+  }
+
+  .lang {
+    margin-left: 0;
+  }
+
+  .lang h3 {
+    margin-left: -1.5rem;
   }
 
   .lang img {
@@ -738,6 +743,9 @@ input[type="range"] {
   font-size: 22px;
   margin-top: .5rem;
 }
+  .lang h3 {
+    margin-left: -1.5rem;
+  }
 
   .left-side h3 {
     margin-left: 0;
