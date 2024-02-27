@@ -133,8 +133,8 @@ var translations = {
     },
     // Experience Item 1 Translations
     "experiences.item1.missions": {
-        "fr": "<strong>Missions :</strong>",
-        "en": "<strong>Missions :</strong>"
+        "fr": "Missions :",
+        "en": "Missions :"
     },
     "experiences.item1.mission1": {
         "fr": "Conception et développement d'applications logicielles pour répondre aux attentes des clients.",
@@ -157,20 +157,20 @@ var translations = {
         "en": "Code review and resolution of complex issues."
     },
     "experiences.item1.mission6": {
-        "fr": "J'ai ravaillé sur l'amélioration continue de TARS, le système de réservation central d'Accor (utilisé par plus de 5k hôtels dans le monde).",
-        "en": "I worked on the continuous improvement of TARS, Accor's central reservation system (used by more thant 5k hotels worldiwde)."
+        "fr": "Travail sur l'amélioration continue de TARS, le système de réservation central d'Accor (utilisé par plus de 5k hôtels dans le monde).",
+        "en": "Work on the continuous improvement of TARS, Accor's central reservation system (used by more than 5k hotels worldwide)."
     },
     "experiences.item1.mission7": {
-        "fr": "J'ai travaillé sur le développement du nouveau connecteur API HotelTonight v2 (AirBnb).",
-        "en": "I worked on the development of the new HotelTonight v2 connector API (AirBnb)."
+        "fr": "Développement du nouveau connecteur API HotelTonight v2 (AirBnb).",
+        "en": "Development of the new HotelTonight v2 connector API (AirBnb)."
     },
     "experiences.item1.mission8": {
-        "fr": "J'ai travaillé sur l'amélioration du code et le développement de fonctionnalités de certains connecteurs majeurs d'OTA (Booking.com, Expedia, Agoda, etc).",
-        "en": "I worked on the code improvment and features development of some major OTA's connectors (Booking.com, Expedia, Agoda, etc)."
+        "fr": "Amélioration du code et développement de fonctionnalités de certains connecteurs majeurs d'OTA (Booking.com, Expedia, Agoda, etc).",
+        "en": "Code improvment and features development of some major OTA's connectors (Booking.com, Expedia, Agoda, etc)."
     },
     "experiences.item1.tools": {
-        "fr": "<strong>Outils / Technologies :</strong>",
-        "en": "<strong>Tools/Technologies :</strong>"
+        "fr": "Outils / Technologies :",
+        "en": "Tools/Technologies :"
     },
     "experiences.item1.tool1": {
         "fr": "Langages de programmation : C#, F#.",
@@ -193,8 +193,8 @@ var translations = {
         "en": "Continuous Integration: Gitlab CI/CD."
     },
     "experiences.item1.skills": {
-        "fr": "<strong>Compétences développées :</strong>",
-        "en": "<strong>Improved skills :</strong>"
+        "fr": "Compétences développées :",
+        "en": "Improved skills :"
     },
     "experiences.item1.skill1": {
         "fr": "Principes d'ingénierie logicielle et bonnes pratiques de programmation.",
@@ -227,8 +227,8 @@ var translations = {
 
     // Experience Item 2 Translations
     "experiences.item2.missions": {
-        "fr": "<strong>Missions :</strong>",
-        "en": "<strong>Missions :</strong>"
+        "fr": "Missions :",
+        "en": "Missions :"
     },
     "experiences.item2.mission1": {
         "fr": "Conception et développement de sites web et applications réactives et conviviales.",
@@ -243,8 +243,8 @@ var translations = {
         "en": "Collaboration with clients to understand and address their specific needs and goals."
     },
     "experiences.item2.tools": {
-        "fr": "<strong>Outils / Technologies :</strong>",
-        "en": "<strong>Tools/Technologies :</strong>"
+        "fr": "Outils / Technologies :",
+        "en": "Tools/Technologies :"
     },
     "experiences.item2.tool1": {
         "fr": "HTML, CSS, JavaScript pour le développement front-end.",
@@ -263,8 +263,8 @@ var translations = {
         "en": "Version control with Git and GitHub."
     },
     "experiences.item2.skills": {
-        "fr": "<strong>Compétences développées :</strong>",
-        "en": "<strong>Improved Skills :</strong>"
+        "fr": "Compétences développées :",
+        "en": "Improved Skills :"
     },
     "experiences.item2.skill1": {
         "fr": "Compétent en développement front-end avec un accent sur l'expérience utilisateur.",
@@ -281,8 +281,8 @@ var translations = {
 
     // Experience Item 3 Translations
     "experiences.item3.missions": {
-        "fr": "<strong>Missions :</strong>",
-        "en": "<strong>Missions :</strong>"
+        "fr": "Missions :",
+        "en": "Missions :"
     },
     "experiences.item3.mission1": {
         "fr": "Fournir des traitements ostéopathiques personnalisés aux patients.",
@@ -297,8 +297,8 @@ var translations = {
         "en": "Educating patients on preventive measures and lifestyle modifications."
     },
     "experiences.item3.tools": {
-        "fr": "<strong>Outils / Technologies :</strong>",
-        "en": "<strong>Tools/Technologies :</strong>"
+        "fr": "Outils / Technologies :",
+        "en": "Tools/Technologies :"
     },
     "experiences.item3.tool1": {
         "fr": "Techniques ostéopathiques manuelles.",
@@ -309,8 +309,8 @@ var translations = {
         "en": "Patient management systems for record-keeping."
     },
     "experiences.item3.skills": {
-        "fr": "<strong>Compétences développées :</strong>",
-        "en": "<strong>Improved Skills :</strong>"
+        "fr": "Compétences développées :",
+        "en": "Improved Skills :"
     },
     "experiences.item3.skill1": {
         "fr": "Connaissance approfondie des principes et techniques ostéopathiques.",
@@ -449,7 +449,7 @@ var translations = {
         "en": "Hobbies"
     },
     "hobbies": {
-        "fr": "Sport, voyage, jeux vidéos, spiritualité",
-        "en": "Sport, travel, video games, spirituality"
+        "fr": "Sport, voyage, jeux vidéos, arts martiaux",
+        "en": "Sport, travel, video games, martial arts"
     }
 };

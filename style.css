@@ -316,9 +316,6 @@ button:hover {
   grid-row: auto;
   grid-gap: 8px;
 }
-.job-experience {
-  margin-left: 2rem;
-}
 
 .job-experience p {
   margin-bottom: .5rem
@@ -327,6 +324,12 @@ button:hover {
 .experiences-list {
   padding: .2rem;
   margin-top: .2rem;
+  margin-left: 1rem;
+}
+
+.experiences-list li {
+  list-style: circle;
+  margin-left: 1rem;
 }
 
 .lang img {
@@ -471,6 +474,10 @@ input[type="range"] {
     margin-left: 1rem;
   }
 
+  .experiences-list li {
+    font-size: 16px;
+  }
+
   .fullname {
     font-size: 26px;
   }
@@ -504,8 +511,12 @@ input[type="range"] {
     font-size: 17px;
   }
 
-  .formations-list, .experiences-list {
+  .formations-list {
     margin-left: -2rem;
+  } 
+  
+  .experiences-list {
+    margin-left: 0;
   }
 
   .skills-list {
@@ -602,6 +613,10 @@ input[type="range"] {
     margin-right: 2rem;
   }
 
+  .experiences-list li {
+    font-size: 14px;
+  }
+
   .right-side ul {
     padding-left: .6rem;
   }
@@ -648,10 +663,6 @@ input[type="range"] {
 
   .left-side p {
     font-size: 16px;
-  }
-
-  .formations-list, .experiences-list {
-    margin-left: -2rem;
   }
 
   .skills-list {
@@ -745,6 +756,10 @@ input[type="range"] {
     font-size: 11px;
   }
 
+  .experiences-list li {
+    font-size: 12px;
+  }
+
   .body {
     margin: 0;
     overscroll-behavior: none;
@@ -794,8 +809,12 @@ input[type="range"] {
     margin-right: .3rem;
   }
 
-  .formations-list, .experiences-list {
+  .formations-list {
     margin-left: -2rem;
+  }
+
+  .experiences-list {
+    margin-left: 0;
   }
 
   .skills-list {
