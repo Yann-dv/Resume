@@ -36,7 +36,7 @@ window.addEventListener("click", function (e) {
         if (avatar.src.includes("avatarmanga.jpg")) {
             avatar.style.animation = "flush .5s linear"
             this.setTimeout(function () {
-                avatar.src = "./images/avatar.jpg";
+                avatar.src = "./images/avatar-min.jpg";
             }, 500);
         }
         else {

@@ -224,6 +224,10 @@ button:hover {
   margin-bottom: 1rem;
 }
 
+.lang-level {
+  font-weight: bold;
+}
+
 .skills_progressbar>ul:nth-child(1) {
   margin-top: .1rem;
 }
@@ -337,7 +341,7 @@ button:hover {
 .lang img {
   cursor: pointer;
   margin-bottom: 0;
-  width: 4vw;
+  width: auto;
   height: 5vh;
   border-radius: 8px;
   box-shadow: 1px 1px 1px black;
@@ -705,10 +709,6 @@ input[type="range"] {
   .lang h3 {
     margin-left: -1.5rem;
   }
-
-  .lang img {
-    width: 5vw;
-  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -745,7 +745,7 @@ input[type="range"] {
   .skills_progressbar h3,
   .lang h3,
   .hobbies h3 {
-  font-size: 22px;
+  font-size: 16px;
   margin-top: .5rem;
 }
   .lang h3 {
@@ -771,6 +771,10 @@ input[type="range"] {
 
   .experiences-list li {
     font-size: 12px;
+  }
+
+  .job-experience div strong {
+    font-size: 14px;
   }
 
   .body {
