@@ -377,7 +377,7 @@ button:hover {
 .avatar {
   cursor: pointer;
   margin-top: 2rem;
-  width: 40%;
+  width: 50%;
   box-shadow: 3px 3px 0px var(--main-bg-color);
 }
 
@@ -529,12 +529,9 @@ input[type="range"] {
     font-size: .7rem;
   }
 
-  .socials i.fab:nth-child(n+1) {
-    font-size: 3rem;
-  }
-
   .socials i.fab:nth-child(n+1), .socials i.fa-solid:nth-child(n+1) {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-left: .5rem;
   }
 
   .socials {
