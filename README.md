@@ -1,7 +1,10 @@
-My personnal Resume as Web Developer
+My personnal Resume as Software EngineerS
 
+Coded in Html, CSS and JavaScript.
 
-French and English versions
+User can download and print the resume in PDF format.
+User can switch between dark and light mode.
+User can switch between English and French language.
 
-
---- Light / Dark color theme options
+Contain some links to my social media and my email.
+Linked to my personal website and my GitHub repository.
