@@ -112,8 +112,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "experiences.item1.details": {
-        "fr": "<span class='compagny'>Salarié </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
-        "en": "<span class='compagny'>Employee </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
+        "fr": "<span class='compagny'>Alternance </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
+        "en": "<span class='compagny'>Apprenticeship </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
     },
     "experiences.item2.title": {
         "fr": "Développeur Web",
@@ -131,7 +131,6 @@ var translations = {
         "fr": "<span class='compagny'>Cabinet privé, clinique </span>Paris/ 2011 - décembre 2021",
         "en": "<span class='compagny'>Private Practice, clinic </span>Paris/ 2011 - December 2021"
     },
-    // Experience Item 1 Translations
     "experiences.item1.missions": {
         "fr": "Missions :",
         "en": "Missions :"
@@ -167,6 +166,10 @@ var translations = {
     "experiences.item1.mission8": {
         "fr": "Amélioration du code et développement de fonctionnalités de certains connecteurs majeurs d'OTA (Booking.com, Expedia, Agoda, etc).",
         "en": "Code improvment and features development of some major OTA's connectors (Booking.com, Expedia, Agoda, etc)."
+    },
+    "experiences.item1.mission9": {
+        "fr": "Amélioratation de la couverture de tests et de la qualité du code.",
+        "en": "Improvement of test coverage and code quality."
     },
     "experiences.item1.tools": {
         "fr": "Outils / Technologies :",

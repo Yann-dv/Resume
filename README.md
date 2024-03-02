@@ -1,4 +1,4 @@
-My personnal Resume as Software EngineerS
+My personnal Resume as Software Engineer
 
 Coded in Html, CSS and JavaScript.
 

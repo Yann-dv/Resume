@@ -60,7 +60,7 @@ window.addEventListener("click", function (e) {
 });
 
 
-var themeColor = "";
+var themeColor = "light"; // default
 var getOperatingSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
 setThemeColor(getOperatingSystemTheme);
 
