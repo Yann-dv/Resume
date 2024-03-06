@@ -56,7 +56,7 @@ var translations = {
         "en": "Software Engineer"
     },
     "pitch": {
-        "fr": "\"J'aide les entreprises à concevoir des logiciels efficaces et innovants, axés sur l'expérience utilisateur.\"",
+        "fr": "\"J'aide les entreprises à concevoir des logiciels performants et innovants, axés sur l'expérience utilisateur.\"",
         "en": "\"I help companies design efficient and innovative softwares, focused on the user experience.\""
     },
     "skills.title": {
