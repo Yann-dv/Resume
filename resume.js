@@ -8,25 +8,15 @@ const tradBar = document.getElementById('gt-nvframe');
 const print_pdf = document.getElementById('print_pdf');
 const age = document.getElementById('age');
 var currentLanguage = document.currentScript.getAttribute('data-current-language') || 'en';
-let aged = false;
 
 function getAge(date) {
     var diff = Date.now() - date.getTime();
     var age = new Date(diff);
-    return Math.abs(age.getUTCFullYear() - 1971);
+    return Math.abs(age.getUTCFullYear() - 1969);
 }
 
 window.addEventListener("load", function () {
-    if (!aged) {
-        if(currentLanguage === "fr") {
-            age.append(getAge(new Date(1988, 3, 23)) + " ans");
-            aged = true;
-        }
-        else {
-            age.append(getAge(new Date(1988, 3, 23)) + " years old");
-            aged = true;
-        }
-    }
+            age.prepend(getAge(new Date(1989, 3, 23)));
 });
 
 window.addEventListener("click", function (e) {
