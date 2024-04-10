@@ -56,8 +56,8 @@ var translations = {
         "en": "Software Engineer"
     },
     "pitch": {
-        "fr": "\"J'aide les entreprises à concevoir des logiciels performants et innovants, axés sur l'expérience utilisateur.\"",
-        "en": "\"I help companies design efficient and innovative softwares, focused on the user experience.\""
+        "fr": "\"J'aide les entreprises à concevoir des solutions performantes et sécurisées, axées sur l'expérience utilisateur.\"",
+        "en": "\"I help companies design efficient and secure solutions, focused on the user experience.\""
     },
     "skills.title": {
         "fr": "Compétences",
@@ -438,5 +438,10 @@ var translations = {
     "hobbies": {
         "fr": "Sport, voyage, jeux vidéos, arts martiaux",
         "en": "Sport, travel, video games, martial arts"
+    },
+    "age-detail": 
+    {
+        "fr": "&nbspans",
+        "en": "&nbspyears old"
     }
 };
