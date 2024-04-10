@@ -26,9 +26,9 @@ body {
 
 .pitch {
   color: var(--main-color);
-  font-size: 26px;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  font-size: 24px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .external-link {
@@ -88,7 +88,7 @@ body {
 
 .left-side h3 {
   margin-left: 2rem;
-  font-size: 30px;
+  font-size: 26px;
   color: var(--main-color);
 }
 
@@ -120,7 +120,7 @@ body {
 
 .skills {
   padding-right: 1rem;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .skills-list {
@@ -498,11 +498,11 @@ input[type="range"] {
 
   .left-side h3 {
     margin-left: 0;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .skills {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .left-side h4 {
