@@ -111,6 +111,14 @@ var translations = {
         "fr": "Ingénieur logiciel",
         "en": "Software Engineer"
     },
+	"experiences.item0.title": {
+		"fr": "Recherche d'un poste en cybersécurité",
+		"en": "Looking for a position in cybersecurity"
+	},
+	"experiences.item0.details": {
+		"fr": "<span class='compagny'> Alternance</span> - Septembre 2024 - septembre 2027",
+		"en": "<span class='compagny'> Apprenticeship</span> - September 2024 - September 2027"
+	},
     "experiences.item1.details": {
         "fr": "<span class='compagny'>Alternance </span>chez <a href='https://www.d-edge.com/fr/' target='_blank' title='Site web D-Edge' class='external-link'>D-EDGE</a> (Logiciels hôteliers) Paris/ 2022 - actuellement</p>",
         "en": "<span class='compagny'>Apprenticeship </span>at <a href='https://www.d-edge.com/' target='_blank' title='D-Edge website' class='external-link'>D-EDGE</a> (Hotelier softwares) Paris/ 2022 - currently</p>"
@@ -331,9 +339,17 @@ var translations = {
         "fr": "Diplômes et Éducation",
         "en": "Degrees and Education"
     },
+	"formations.item0.title": {
+        "fr": "Expert de la sécurité des données, des réseaux et des systèmes",
+        "en": "Datas, Networks and Systems Security Expert"
+    },
+	"formations.item0.details": {
+        "fr": "<span class='compagny'>Ecole 2600 </span>Montigny-Le-Bretonneux/ Sept 2024 - Sept 2027",
+        "en": "<span class='compagny'>2600 School </span>Montigny-Le-Bretonneux/ Sept 2024 - Sept 2027"
+    },
     "formations.item1.title": {
         "fr": "Développeur Concepteur logiciel",
-        "en": "Software Designer Developer "
+        "en": "Software Designer Developer"
     },
     "formations.item1.details": {
         "fr": "<span class='compagny'>Openclassrooms </span>Paris/ mai 2022 - mai 2024",
