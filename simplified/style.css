@@ -1,3 +1,11 @@
+:root {
+    --main-color: #1895CE;
+    --main-bg-color: #FFFFFF;
+}
+.body {
+    background-color: var(--main-bg-color);
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -20,5 +28,22 @@
     margin: auto;
     margin-top: 1rem;
     width: 80%;
-    border-bottom: 10px solid aqua;
+    border-bottom: 10px solid var(--main-color);
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.skillLevel {
+    margin: 0 .2rem;
+    color: var(--main-color)
 }
