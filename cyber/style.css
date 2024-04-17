@@ -1,7 +1,19 @@
 :root {
     --main-color: #1895CE;
     --main-bg-color: #FFFFFF;
+    --main-text-color: #000;
+    font-size: 13px;
 }
+
+a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 0;
+}
+
 .body {
     background-color: var(--main-bg-color);
 }
@@ -13,7 +25,7 @@
 }
 
 .header-img {
-    width: 150px;
+    width: 100px;
     height: auto;
 }
 
@@ -24,23 +36,53 @@
     justify-content: center;
 }
 
-.header-underline {
+.header-underline, .footer-underline {
     margin: auto;
     margin-top: 1rem;
     width: 80%;
-    border-bottom: 10px solid var(--main-color);
+    border-bottom: 4px solid var(--main-color);
 }
 
 .main-section {
     display: flex;
-    justify-content: center;
     margin: auto;
 }
 
 .left-section, .right-section {
     display: flex;
     flex-direction: column;
-    margin: auto;
+}
+
+.left-section {
+    width: 40%;
+}
+
+.right-section {
+    margin-left: 1rem;
+    width: 55%;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+    font-size: 12px;
+}
+
+.skill :nth-child(2) {
+    text-wrap: nowrap;
+}
+
+
+
+.formations li p, .experiences-pro li p{
+    font-weight: bold;
+    margin-bottom: .2rem;
+    margin-top: .5rem;
+}
+
+.formations li span, .experiences-pro li span{
+    color: var(--main-color);
 }
 
 .contact {
@@ -48,7 +90,7 @@
     flex-direction: column;
 }
 
-.contact span .fas, .contact span .fab, .contact span .fa-solid {
+.contact span .fas, .contact span .fab, .contact span .fa-solid, .footer-links span .fas, .footer-links span .fab, .footer-links span .fa-solid {
     margin-right: .5rem;
 }
 
@@ -60,6 +102,7 @@
 .experiences-pro, .formations, .interests {
     position: relative;
     margin-left: 0;
+    padding-left: 1rem;
     z-index: 1;
 }
 
@@ -67,7 +110,7 @@
     content:'';
     position:absolute;
     border-left: 1px solid var(--main-color);
-    left: 9%;
+    left: 0;
     bottom:0;
     z-index: -1;
     height:100%
@@ -75,4 +118,10 @@
 
 .experiences-pro li:last-child:before, .formations li:last-child:before, .interests li:last-child:before {
     content:none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }
