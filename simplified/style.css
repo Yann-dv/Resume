@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.header-img {
+    width: 150px;
+    height: auto;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-underline {
+    margin: auto;
+    margin-top: 1rem;
+    width: 80%;
+    border-bottom: 10px solid aqua;
+}
