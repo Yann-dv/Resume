@@ -55,11 +55,15 @@ ul {
 
 .left-section {
     width: 40%;
+    margin-right: 3rem;
+}
+
+.profil {
+    text-align: justify;
 }
 
 .right-section {
-    margin-left: 1rem;
-    width: 55%;
+    width: 60%;
 }
 
 .skill {
