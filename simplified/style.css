@@ -43,7 +43,36 @@
     margin: auto;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact span .fas, .contact span .fab, .contact span .fa-solid {
+    margin-right: .5rem;
+}
+
 .skillLevel {
     margin: 0 .2rem;
     color: var(--main-color)
+}
+
+.experiences-pro, .formations, .interests {
+    position: relative;
+    margin-left: 0;
+    z-index: 1;
+}
+
+.experiences-pro li:before, .formations li:before, .interests li:before {
+    content:'';
+    position:absolute;
+    border-left: 1px solid var(--main-color);
+    left: 9%;
+    bottom:0;
+    z-index: -1;
+    height:100%
+}  
+
+.experiences-pro li:last-child:before, .formations li:last-child:before, .interests li:last-child:before {
+    content:none;
 }
