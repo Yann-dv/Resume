@@ -218,7 +218,7 @@ button:hover {
 
 .rootme-img {
   margin-top: .2rem;
-  border-radius: 8px;
+  border-radius: 6px;
   height: 3.5rem;
   width: 3.5rem;
 }
@@ -503,6 +503,12 @@ input[type="range"] {
     font-size: 18px;
   }
 
+  .rootme-img {
+    margin-left: .5rem;
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+
   .jobgoal {
     font-size: 28px;
   }
@@ -627,6 +633,13 @@ input[type="range"] {
     font-size: 14px;
   }
 
+  .rootme-img {
+    margin-left: .5rem;
+    border-radius: 4px;
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
   .left-side {
     margin-right: 2rem;
   }
@@ -746,6 +759,13 @@ input[type="range"] {
     font-size: 12px;
   }
 
+  .rootme-img {
+    margin-left: .5rem;
+    border-radius: 4px;
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+  
   .hobbies {
     font-size: 12px;
   }
