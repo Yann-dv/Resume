@@ -8,6 +8,8 @@ const portfolio = document.getElementById("portfolioLink");
 const tradBar = document.getElementById('gt-nvframe');
 const print_pdf = document.getElementById('print_pdf');
 const age = document.getElementById('age');
+const simplifyBtn = document.getElementById('simplify');
+
 var currentLanguage = document.currentScript.getAttribute('data-current-language') || 'en';
 
 function getAge(date) {
@@ -55,6 +57,15 @@ var themeColor = "light"; // default
 var getOperatingSystemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
 setThemeColor(getOperatingSystemTheme);
 
+simplifyBtn.addEventListener("click", function () {
+    if(currentLanguage === "fr") {
+        window.location.href = "./non-graphique/index.html";
+    }
+    else
+    {
+        window.location.href = "./non-graphical/index.html";
+    }
+});
 toggleThemeBtn.addEventListener("click", function () {
     if(themeColor === "light") {
         themeColor = "dark";

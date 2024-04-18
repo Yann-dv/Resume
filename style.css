@@ -165,6 +165,10 @@ body {
   background: padding-box no-repeat center/ cover url('./images/print_red.png');
 }
 
+#simplify {
+  background: padding-box no-repeat center/ cover url('./images/doc.png');
+}
+
 .themes-btn {
   display: flex;
   flex-direction: column;
