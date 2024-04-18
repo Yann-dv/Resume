@@ -1,4 +1,5 @@
 const toggleThemeBtn = document.getElementById("theme-toggle");
+const rootmeLink= document.querySelector("#rootmeLink img");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const linkedIn = document.getElementById("linkedInLink");
@@ -88,6 +89,7 @@ function setThemeColor(themeColor) {
             `;
             toggleThemeBtn.style.cssText = "color: #000000; background-color: #FFFFFF";
             toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            rootmeLink.style.cssText= "filter: invert(0%); -webkit-filter: invert(0%)";
         }
         else {
             html.style.cssText = `
@@ -101,6 +103,7 @@ function setThemeColor(themeColor) {
             `;
             toggleThemeBtn.style.cssText = "color: #FFFFFF; background-color: #000000";
             toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            rootmeLink.style.cssText= "filter: invert(100%); -webkit-filter: invert(100%)";
         }
     }
 }

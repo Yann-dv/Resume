@@ -212,6 +212,13 @@ button:hover {
   flex-direction: column;
 }
 
+.rootme-img {
+  margin-top: .2rem;
+  border-radius: 8px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
 .socials i.fab:nth-child(1n+1),
 .socials i.fa-solid:nth-child(1n+1) {
   font-size: 4rem;
