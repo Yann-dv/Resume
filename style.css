@@ -388,7 +388,8 @@ button:hover {
 .avatar {
   cursor: pointer;
   margin-top: 2rem;
-  width: 50%;
+  height: 225px;
+  width: auto;
   box-shadow: 3px 3px 0px var(--main-bg-color);
 }
 
@@ -556,6 +557,7 @@ input[type="range"] {
   }
 
   .avatar {
+    height: 125px;
     margin-top: 1.7rem;
   }
 
