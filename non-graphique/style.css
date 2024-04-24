@@ -103,7 +103,7 @@ ul {
     flex-direction: column;
 }
 
-.contact p .fas, .contact p .fab, .contact p .fa-solid, .rootme-img, .footer-links li .fab, .footer-links li .fa-solid {
+.contact p .fas, .contact p .fab, .contact p .fa-solid, .rootme-img, .codingame-img, .footer-links li .fab, .footer-links li .fa-solid {
     margin-right: .5rem;
 }
 
@@ -142,7 +142,7 @@ ul {
     vertical-align: center;
 }
 
-.rootme-img {
+.rootme-img, .codingame-img {
     height: 13px;
     width: auto;
 }

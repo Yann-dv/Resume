@@ -1,5 +1,6 @@
 const toggleThemeBtn = document.getElementById("theme-toggle");
 const rootmeLink= document.querySelector("#rootmeLink img");
+const codingameLink = document.querySelector("#codeingameLink img");
 const flagLink = document.getElementsByClassName('flagLink')[0];
 const showFrench = document.getElementById("french-v");
 const linkedIn = document.getElementById("linkedInLink");
@@ -15,7 +16,7 @@ var currentLanguage = document.currentScript.getAttribute('data-current-language
 function getAge(date) {
     var diff = Date.now() - date.getTime();
     var age = new Date(diff);
-    return Math.abs(age.getUTCFullYear() - 1969);
+    return Math.abs(age.getUTCFullYear() - 1970);
 }
 
 window.addEventListener("load", function () {
@@ -100,7 +101,8 @@ function setThemeColor(themeColor) {
             `;
             toggleThemeBtn.style.cssText = "color: #000000; background-color: #FFFFFF";
             toggleThemeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
-            rootmeLink.style.cssText= "filter: invert(0%); -webkit-filter: invert(0%)";
+            rootmeLink.src = "./images/rootme.png";
+            codingameLink.src = "./images/codingame.png";
         }
         else {
             html.style.cssText = `
@@ -114,7 +116,8 @@ function setThemeColor(themeColor) {
             `;
             toggleThemeBtn.style.cssText = "color: #FFFFFF; background-color: #000000";
             toggleThemeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
-            rootmeLink.style.cssText= "filter: invert(100%); -webkit-filter: invert(100%)";
+            rootmeLink.src = "./images/rootme-dark.png";
+            codingameLink.src = "./images/codingame-dark.png";
         }
     }
 }
