@@ -10,8 +10,12 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin: 1rem 0;
+}
+
 p {
-    margin: .2rem;
+    margin: .1rem;
 }
 
 ul {
@@ -98,16 +102,12 @@ ul {
     color: var(--main-color);
 }
 
-.contact {
+.infos, .contact {
     display: flex;
     flex-direction: column;
 }
 
-.contact p {
-    margin: .1rem;
-}
-
-.contact p .fas, .contact p .fab, .contact p .fa-solid, .rootme-img, .codingame-img, .footer-links li .fab, .footer-links li .fa-solid {
+.infos p, .infos p .fas, .infos p .fab, .infos p fa-solid, .contact p .fas, .contact p .fab, .contact p .fa-solid, .rootme-img, .codingame-img, .footer-links li .fab, .footer-links li .fa-solid {
     margin-right: .5rem;
 }
 
@@ -116,14 +116,14 @@ ul {
     color: var(--main-color)
 }
 
-.experiences-pro, .formations, .interests {
+.experiences-pro, .formations {
     position: relative;
     margin-left: 0;
     padding-left: 1rem;
     z-index: 1;
 }
 
-.experiences-pro li:before, .formations li:before, .interests li:before {
+.experiences-pro li:before, .formations li:before {
     content:'';
     position:absolute;
     border-left: 1px solid var(--main-color);
@@ -133,7 +133,7 @@ ul {
     height:100%
 }  
 
-.experiences-pro li:last-child:before, .formations li:last-child:before, .interests li:last-child:before {
+.experiences-pro li:last-child:before, .formations li:last-child:before {
     content:none;
 }
 
@@ -149,4 +149,15 @@ ul {
 .rootme-img, .codingame-img {
     height: 13px;
     width: auto;
+}
+
+.interests, .langues {
+    display: flex;
+    align-items: center;
+}
+
+.langues div, .interests div {
+    text-align: center;
+    padding-top: .3rem;
+    margin-right: 1rem;
 }
