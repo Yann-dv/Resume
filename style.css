@@ -937,6 +937,18 @@ input[type="range"] {
   overflow-x: auto;
   }
   
+  .avatar {
+    height: 170px;
+  }
+
+  .right-side ul li i {
+    font-size: 18px;
+  }
+
+  .contact-infos {
+    font-size: 18px;
+  }
+
   .languages img {
     height: 3vh;
   }
