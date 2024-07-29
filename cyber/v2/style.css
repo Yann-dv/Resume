@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:#e4e1e1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 100%;
+    max-width: 300px;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile .avatar {
+    width: 140px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.sidebar .profile h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.sidebar .profile h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ECF0F1;
+}
+
+.sidebar h3 {
+    font-size: 1.2em;
+    border-bottom: 1px solid #ECF0F1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.sidebar a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .skills ul, .sidebar .interests ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.sidebar .skills ul li, .sidebar .interests ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar .languages p {
+    margin: 5px 0;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main h2 {
+    border-bottom: 2px solid #2C3E50;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.main .profile-summary {
+    margin-bottom: 20px;
+}
+
+.main .profile-summary p {
+    font-size: 1em;
+}
+
+.main .experience .job, .main .education .course {
+    margin-bottom: 20px;
+}
+
+.main h3 {
+    font-size: 1.2em;
+    margin: 0 0;
+}
+
+.main p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.main ul li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.main .job h3, .main .course h3 {
+    font-size: 1.2em;
+    color: #2C3E50;
+}
+
+.main .job p, .main .course p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+@media print {
+    body {
+        font-size: 13px;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 0;
+        height: 100vh;
+    }
+}
