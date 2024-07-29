@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: black;
     background-color:#e4e1e1;
     margin: 0;
     padding: 0;
@@ -133,7 +133,7 @@ body {
 
 .main .job p, .main .course p {
     font-size: 0.9em;
-    color: #555;
+    color: #29598a;
 }
 
 @media print {
