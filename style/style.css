@@ -89,6 +89,11 @@ body {
     margin: 5px 0;
 }
 
+.grid-style {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+}
+
 .main {
     flex: 1;
     padding: 20px;
