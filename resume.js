@@ -60,11 +60,11 @@ setThemeColor(getOperatingSystemTheme);
 
 simplifyBtn.addEventListener("click", function () {
     if(currentLanguage === "fr") {
-        window.location.href = "./french/v2/index.html";
+        window.location.href = "./french/index.html";
     }
     else
     {
-        window.location.href = "./english/v2/index.html";
+        window.location.href = "./english/index.html";
     }
 });
 toggleThemeBtn.addEventListener("click", function () {
